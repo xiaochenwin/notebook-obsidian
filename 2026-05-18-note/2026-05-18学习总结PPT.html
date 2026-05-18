@@ -20,15 +20,15 @@ font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",sans-s
 position:fixed;
 top:0;left:0;
 display:flex;
-width:100%;
+flex-wrap:nowrap;
+width:10000vw;
 height:100vh;
 transition:transform 0.4s ease;
 }
 .slide{
-min-width:100%;
-width:100%;
+width:100vw;
 height:100vh;
-flex-shrink:0;
+flex:0 0 100vw;
 padding:4vh 5vw 5vh;
 display:flex;
 flex-direction:column;
@@ -556,7 +556,7 @@ z-index:100;
     if(idx<0)idx=0;
     if(idx>=total)idx=total-1;
     current=idx;
-    deck.style.transform='translateX(-'+current*100+'%)';
+    deck.style.transform='translateX(-'+current*100+'vw)';
     for(var i=0;i<navDots.length;i++){
       navDots[i].className='dot'+(i===current?' active':'');
     }
