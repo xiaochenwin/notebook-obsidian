@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-05-18 学习总结</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&family=Noto+Sans+SC:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+width:100%;height:100%;
+overflow:hidden;
+background:#0a0a0a;
+color:#0a0a0a;
+font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",sans-serif;
+}
+.deck{
+position:fixed;
+top:0;left:0;
+display:flex;
+width:100%;
+height:100vh;
+transition:transform 0.4s ease;
+}
+.slide{
+min-width:100%;
+width:100%;
+height:100vh;
+flex-shrink:0;
+padding:4vh 5vw 5vh;
+display:flex;
+flex-direction:column;
+background:#fafaf8;
+overflow:hidden;
+}
+.slide.dark{background:#0a0a0a;color:#fafaf8}
+.slide.grey{background:#f0f0ee}
+.slide.accent{background:#002FA7;color:#fff}
+.chrome{
+display:flex;
+justify-content:space-between;
+font-family:"JetBrains Mono",monospace;
+font-size:10px;
+letter-spacing:.12em;
+text-transform:uppercase;
+opacity:.6;
+flex-shrink:0;
+}
+.chrome .r{display:flex;gap:1.5em}
+.foot{
+margin-top:auto;
+padding-top:1.5vh;
+border-top:1px solid rgba(0,0,0,.12);
+display:flex;
+justify-content:space-between;
+font-family:"JetBrains Mono",monospace;
+font-size:10px;
+letter-spacing:.12em;
+text-transform:uppercase;
+opacity:.5;
+flex-shrink:0;
+}
+.slide.dark .foot{border-top-color:rgba(255,255,255,.15)}
+.kicker{
+font-size:10px;
+letter-spacing:.2em;
+text-transform:uppercase;
+color:#002FA7;
+margin-bottom:1.5vh;
+flex-shrink:0;
+}
+.kicker::before{
+content:"";
+display:inline-block;
+width:20px;
+height:1px;
+background:#002FA7;
+margin-right:10px;
+vertical-align:middle;
+}
+.slide.accent .kicker{color:rgba(255,255,255,.8)}
+.slide.accent .kicker::before{background:rgba(255,255,255,.6)}
+h1{
+font-size:clamp(36px,7vw,96px);
+font-weight:200;
+line-height:1.1;
+letter-spacing:-.03em;
+flex-shrink:0;
+}
+h2{
+font-size:clamp(24px,4vw,52px);
+font-weight:200;
+line-height:1.2;
+letter-spacing:-.02em;
+flex-shrink:0;
+}
+h3{
+font-size:clamp(14px,1.8vw,22px);
+font-weight:500;
+line-height:1.3;
+margin-bottom:.5vh;
+}
+p,li{
+font-size:clamp(12px,1.1vw,16px);
+line-height:1.5;
+opacity:.8;
+}
+.content{
+flex:1;
+display:flex;
+flex-direction:column;
+gap:2vh;
+overflow:hidden;
+min-height:0;
+}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:2vw}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:2vw}
+.grid-4{display:grid;grid-template-columns:repeat(2,1fr);gap:2vh}
+.card{
+background:#f5f5f4;
+padding:2vh 1.5vw;
+display:flex;
+flex-direction:column;
+gap:.5vh;
+overflow:hidden;
+}
+.card.dark{background:#0a0a0a;color:#fafaf8}
+.card.accent{background:#002FA7;color:#fff}
+.card-label{
+font-family:"JetBrains Mono",monospace;
+font-size:9px;
+letter-spacing:.15em;
+text-transform:uppercase;
+opacity:.6;
+}
+.card-num{
+font-size:clamp(28px,4vw,56px);
+font-weight:700;
+line-height:1;
+letter-spacing:-.02em;
+}
+.card-num.blue{color:#002FA7}
+.step{
+border-top:2px solid currentColor;
+padding-top:1vh;
+}
+.step.accent{border-color:#002FA7}
+.step-title{font-weight:600;font-size:clamp(12px,1.2vw,16px)}
+.step-desc{opacity:.7;font-size:clamp(11px,1vw,14px)}
+ul{list-style:none}
+li{display:flex;align-items:flex-start;gap:.5vw}
+li::before{
+content:"";
+width:6px;
+height:6px;
+background:#002FA7;
+border-radius:50%;
+margin-top:.5em;
+flex-shrink:0;
+}
+.rule{
+width:60px;
+height:2px;
+background:#002FA7;
+margin:1.5vh 0;
+}
+.tag{
+display:inline-block;
+padding:4px 8px;
+background:#002FA7;
+color:#fff;
+font-family:"JetBrains Mono",monospace;
+font-size:9px;
+letter-spacing:.1em;
+text-transform:uppercase;
+}
+#nav{
+position:fixed;
+bottom:2vh;
+left:50%;
+transform:translateX(-50%);
+display:flex;
+gap:8px;
+z-index:100;
+}
+.dot{
+width:6px;
+height:6px;
+background:rgba(0,0,0,.25);
+cursor:pointer;
+border:none;
+}
+.dot.active{background:#002FA7;width:18px}
+.slide.dark .dot{background:rgba(255,255,255,.3)}
+.slide.dark .dot.active{background:#fff}
+#hint{
+position:fixed;
+bottom:2.5vh;
+right:2vw;
+font-family:"JetBrains Mono",monospace;
+font-size:9px;
+letter-spacing:.1em;
+text-transform:uppercase;
+opacity:.35;
+z-index:100;
+}
+.highlight{color:#002FA7;font-weight:600}
+.text-white{color:#fff}
+.text-accent{color:#002FA7}
+.bg-ink{background:#0a0a0a;color:#fafaf8}
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+<!-- Slide 1: 封面 -->
+<section class="slide dark">
+  <div class="chrome"><span>2026-05-18</span><span class="r">学习总结</span></div>
+  <div class="content" style="justify-content:center;padding-left:2vw">
+    <p style="color:rgba(255,255,255,.5);font-size:11px;letter-spacing:.2em">CLAUDE CODE + CODEX + OBSIDIAN</p>
+    <h1 style="color:#fafaf8">AI 工具<br>深度探索</h1>
+    <div class="rule" style="background:#002FA7"></div>
+    <p style="color:rgba(255,255,255,.7);max-width:40vw">Claude Code 编程实践 · Codex 深度整合<br>科研工作流优化升级</p>
+  </div>
+  <div class="foot"><span>笔记同步助手</span><span>01</span></div>
+</section>
+
+<!-- Slide 2: 今日概览 -->
+<section class="slide">
+  <div class="chrome"><span>OVERVIEW</span><span class="r">今日概览</span></div>
+  <div class="content">
+    <h2>今日学习概览</h2>
+    <div class="grid-4">
+      <div class="card">
+        <div class="card-label">笔记总数</div>
+        <div class="card-num blue">21</div>
+        <p>涵盖 Claude Code、Codex、AI 辅助科研</p>
+      </div>
+      <div class="card">
+        <div class="card-label">工具教程</div>
+        <div class="card-num blue">6</div>
+        <p>Claude Code / Codex / Obsidian</p>
+      </div>
+      <div class="card">
+        <div class="card-label">插件配置</div>
+        <div class="card-num blue">4</div>
+        <p>AI4Paper / Awesome GPT / CodexPlusPlus</p>
+      </div>
+      <div class="card">
+        <div class="card-label">实战案例</div>
+        <div class="card-num blue">3</div>
+        <p>发票工具 / 游戏 / PPT</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>02</span></div>
+</section>
+
+<!-- Slide 3: Claude Code -->
+<section class="slide grey">
+  <div class="chrome"><span>01</span><span class="r">CLAUDE CODE</span></div>
+  <div class="content">
+    <div class="kicker">AI 编程工具</div>
+    <h2>Claude Code 深度应用</h2>
+    <div class="grid-2">
+      <div class="card" style="height:100%">
+        <div class="card-label">核心能力</div>
+        <ul>
+          <li>保姆级安装教程，零基础可上手</li>
+          <li>GitHub 6.4k Stars 论文写作流水线</li>
+          <li>上交大研究：睡眠时完成靠谱科研</li>
+          <li>打造专属工具：发票自动下载等</li>
+        </ul>
+      </div>
+      <div class="card dark" style="height:100%">
+        <div class="card-label" style="color:rgba(255,255,255,.6)">Claude Code = 科研效率工具</div>
+        <h3 style="color:#fff">不只是代码助手</h3>
+        <p style="color:rgba(255,255,255,.8)">自动分析代码仓库结构</p>
+        <p style="color:rgba(255,255,255,.8)">协助撰写和修改论文</p>
+        <p style="color:rgba(255,255,255,.8)">批量处理重复性任务</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>03</span></div>
+</section>
+
+<!-- Slide 4: Codex 深度整合 -->
+<section class="slide">
+  <div class="chrome"><span>02</span><span class="r">CODEX INTEGRATION</span></div>
+  <div class="content">
+    <div class="kicker">三位一体</div>
+    <h2>Codex 与 Obsidian/Zotero 深度整合</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-label">Codex + Zotero</div>
+        <h3>文献库直连</h3>
+        <ul>
+          <li>AI 直接检索参考文献</li>
+          <li>自动插入 APA 引用</li>
+          <li>智能理解文献内容</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">Codex + Obsidian</div>
+        <h3>第二大脑</h3>
+        <ul>
+          <li>3 分钟接入 Obsidian</li>
+          <li>Claude + Codex 同时可用</li>
+          <li>再不怕 GPT Plus 用完</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">CodexPlusPlus</div>
+        <h3>插件扩展</h3>
+        <ul>
+          <li>获得 Codex 插件功能</li>
+          <li>扩展 AI 辅助边界</li>
+          <li>增强创作能力</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>04</span></div>
+</section>
+
+<!-- Slide 5: Zotero 插件生态 -->
+<section class="slide accent">
+  <div class="chrome" style="color:rgba(255,255,255,.6)"><span>03</span><span class="r">ZOTERO PLUGINS</span></div>
+  <div class="content">
+    <div class="kicker" style="color:rgba(255,255,255,.7)">Zotero 插件生态</div>
+    <h2 style="color:#fff">AI 插件扩展</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-label">AI4Paper</div>
+        <h3>完整科研 AI</h3>
+        <p>为 Zotero 赋予完整科研 AI 能力，智能文献分析和摘要</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Awesome GPT</div>
+        <h3>DeepSeek V4</h3>
+        <p>配置 DeepSeek V4 教程，增强 Zotero AI 对话能力</p>
+      </div>
+      <div class="card">
+        <div class="card-label">隐藏功能</div>
+        <h3>自动综述</h3>
+        <p>误操作竟能让 Zotero 自动生成万字综述，效率翻倍</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot" style="border-color:rgba(255,255,255,.2)"><span style="color:rgba(255,255,255,.7)">Zotero 插件生态</span><span>05</span></div>
+</section>
+
+<!-- Slide 6: AI 内容创作 -->
+<section class="slide">
+  <div class="chrome"><span>04</span><span class="r">AI CONTENT</span></div>
+  <div class="content">
+    <div class="kicker">AI 辅助创作</div>
+    <h2>AI 内容创作工具链</h2>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-label">PPT 制作</div>
+        <h3>Codex + 多模型协同</h3>
+        <ul>
+          <li>AI 工具高效制作 PPT</li>
+          <li>多模型协同工作</li>
+          <li>从文案到爆款视频全流程</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">游戏开发</div>
+        <h3>Codex + Unity 6</h3>
+        <ul>
+          <li>「Musk Escape Mars」3D游戏</li>
+          <li>展示 AI 游戏开发潜力</li>
+          <li>0 基础也能做游戏</li>
+        </ul>
+      </div>
+      <div class="card dark">
+        <div class="card-label" style="color:rgba(255,255,255,.6)">个人 IP</div>
+        <h3 style="color:#fff">Codex 效率神器</h3>
+        <p style="color:rgba(255,255,255,.8)">从文案到爆款视频的全 AI 流程</p>
+        <p style="color:rgba(255,255,255,.8)">0 基础保姆级教程</p>
+      </div>
+      <div class="card">
+        <div class="card-label">汇报技巧</div>
+        <h3>英文 Presentation</h3>
+        <ul>
+          <li>3 步实现脱稿汇报</li>
+          <li>提升学术演讲能力</li>
+          <li>留学生上网课三件套</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>06</span></div>
+</section>
+
+<!-- Slide 7: 实用工具 -->
+<section class="slide grey">
+  <div class="chrome"><span>05</span><span class="r">TOOLS</span></div>
+  <div class="content">
+    <div class="kicker">实用工具与技巧</div>
+    <h2>工具箱与避坑指南</h2>
+    <div class="grid-2">
+      <div class="card dark">
+        <div class="card-label" style="color:rgba(255,255,255,.6)">Obsidian 避坑</div>
+        <h3 style="color:#fff">符号应用指南</h3>
+        <p style="color:rgba(255,255,255,.8)">避免常见陷阱，安全使用 Obsidian</p>
+      </div>
+      <div class="card">
+        <div class="card-label">留学生工具</div>
+        <h3>豆包三大功能</h3>
+        <p>留学生上网课高效学习三件套</p>
+      </div>
+      <div class="card">
+        <div class="card-label">学习资源</div>
+        <h3>WorkBuddy</h3>
+        <p>从入门到精通（全套 20 篇目录）</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Claude Code</div>
+        <h3>发票自动下载</h3>
+        <p>打造专属发票自动下载工具</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>07</span></div>
+</section>
+
+<!-- Slide 8: 学习成果 -->
+<section class="slide">
+  <div class="chrome"><span>RESULT</span><span class="r">学习成果</span></div>
+  <div class="content">
+    <h2>今日学习成果</h2>
+    <div class="grid-4">
+      <div class="card">
+        <div class="card-num blue">Claude Code</div>
+        <div class="card-label">掌握程度</div>
+        <p>安装、配置、实战应用</p>
+      </div>
+      <div class="card">
+        <div class="card-num blue">Codex</div>
+        <div class="card-label">整合深度</div>
+        <p>Zotero + Obsidian 三位一体</p>
+      </div>
+      <div class="card">
+        <div class="card-num blue">3+</div>
+        <div class="card-label">AI 工作流</div>
+        <p>论文写作、PPT、游戏开发</p>
+      </div>
+      <div class="card">
+        <div class="card-num blue">4</div>
+        <div class="card-label">插件生态</div>
+        <p>AI4Paper / Awesome GPT / CodexPlusPlus</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>08</span></div>
+</section>
+
+<!-- Slide 9: 明天建议 -->
+<section class="slide grey">
+  <div class="chrome"><span>ACTION</span><span class="r">行动建议</span></div>
+  <div class="content">
+    <div class="kicker">明天行动</div>
+    <h2>明天学习建议</h2>
+    <div class="grid-3">
+      <div class="step accent">
+        <div class="step-title">🔥 最高优先级</div>
+        <p class="step-desc">实践 Claude Code 写代码，从小项目开始</p>
+      </div>
+      <div class="step">
+        <div class="step-title">⭐ 重要</div>
+        <p class="step-desc">整合 Codex 到现有工作流</p>
+      </div>
+      <div class="step">
+        <div class="step-title">💡 长期建设</div>
+        <p class="step-desc">建立个人 AI 工具箱</p>
+      </div>
+    </div>
+    <div class="grid-2" style="margin-top:2vh">
+      <div class="card">
+        <div class="card-label">重要任务</div>
+        <ul>
+          <li>探索 AI4Paper 插件</li>
+          <li>尝试 Claude Code 论文流水线</li>
+          <li>完善 Zotero + Codex 整合</li>
+        </ul>
+      </div>
+      <div class="card dark">
+        <div class="card-label" style="color:rgba(255,255,255,.6)">学习路径</div>
+        <p style="color:#fff"><strong>第一阶段:</strong> Claude Code 实战</p>
+        <p style="color:#fff;margin-top:1vh"><strong>第二阶段:</strong> Codex 深度整合</p>
+        <p style="color:#fff;margin-top:1vh"><strong>第三阶段:</strong> 工作流优化</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>2026-05-18 学习总结</span><span>09</span></div>
+</section>
+
+<!-- Slide 10: 核心认知 -->
+<section class="slide accent">
+  <div class="chrome" style="color:rgba(255,255,255,.6)"><span>INSIGHT</span><span class="r">核心认知</span></div>
+  <div class="content" style="justify-content:center;align-items:center;text-align:center">
+    <div class="kicker" style="color:rgba(255,255,255,.7)">核心认知</div>
+    <h2 style="color:#fff;font-size:clamp(20px,3vw,40px)">AI 工具的正确用法<br>不是替代思考<br>而是放大思考能力</h2>
+    <div class="rule" style="background:#fff;margin:3vh auto"></div>
+    <p style="color:rgba(255,255,255,.8);max-width:50vw;text-align:center;font-size:clamp(11px,1.2vw,16px)">
+      Claude Code 擅长处理重复性编程任务<br>
+      Codex 擅长理解和创作<br>
+      Zotero 负责知识管理<br>
+      三者协同，构建高效科研工作流
+    </p>
+  </div>
+  <div class="foot" style="border-color:rgba(255,255,255,.2)"><span style="color:rgba(255,255,255,.7)">2026-05-18</span><span>10</span></div>
+</section>
+
+<!-- Slide 11: 结尾 -->
+<section class="slide dark">
+  <div class="chrome" style="color:rgba(255,255,255,.6)"><span>THANKS</span><span class="r">谢谢</span></div>
+  <div class="content" style="justify-content:center;align-items:center;text-align:center">
+    <p style="color:rgba(255,255,255,.5);font-size:11px;letter-spacing:.2em">2026-05-18</p>
+    <h1 style="color:#fafaf8">持续学习</h1>
+    <div class="rule" style="background:#002FA7"></div>
+    <p style="color:rgba(255,255,255,.7);max-width:45vw;text-align:center">AI 工具日新月异<br>保持学习，持续迭代</p>
+  </div>
+  <div class="foot" style="border-color:rgba(255,255,255,.2)"><span>笔记同步助手</span><span>11</span></div>
+</section>
+
+</div>
+
+<div id="nav"></div>
+<div id="hint">← → 翻页 · ESC 回首页</div>
+
+<script>
+(function(){
+  var deck=document.getElementById('deck');
+  var nav=document.getElementById('nav');
+  var slides=deck.querySelectorAll('.slide');
+  var current=0;
+  var total=slides.length;
+  var navDots=[];
+
+  for(var i=0;i<total;i++){
+    var dot=document.createElement('button');
+    dot.className='dot'+(i===0?' active':'');
+    dot.onclick=(function(idx){return function(){goTo(idx);};})(i);
+    nav.appendChild(dot);
+    navDots.push(dot);
+  }
+
+  function goTo(idx){
+    if(idx<0)idx=0;
+    if(idx>=total)idx=total-1;
+    current=idx;
+    deck.style.transform='translateX(-'+current*100+'%)';
+    for(var i=0;i<navDots.length;i++){
+      navDots[i].className='dot'+(i===current?' active':'');
+    }
+  }
+
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='ArrowDown'||e.key===' '){
+      e.preventDefault();
+      goTo(current+1);
+    }else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){
+      e.preventDefault();
+      goTo(current-1);
+    }else if(e.key==='Escape'){
+      goTo(0);
+    }
+  });
+
+  var touchX=0;
+  document.addEventListener('touchstart',function(e){touchX=e.touches[0].clientX;},{passive:true});
+  document.addEventListener('touchend',function(e){
+    var dx=touchX-e.changedTouches[0].clientX;
+    if(Math.abs(dx)>50){
+      if(dx>0)goTo(current+1);
+      else goTo(current-1);
+    }
+  });
+})();
+</script>
+</body>
+</html>
