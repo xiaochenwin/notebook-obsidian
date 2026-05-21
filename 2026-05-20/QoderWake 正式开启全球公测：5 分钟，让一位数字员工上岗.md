@@ -41,7 +41,7 @@ id: de24fe95-7fb7-413a-a3ed-b47fa1bf7c2b
 -   **内容运营专员：**从账号定位、热点洞察、内容日历到平台内容创作、视觉素材、品牌合规，全链条覆盖。外发前先经人工确认。人来决策，数字员工来执行。
     
 
-![](https://relay-1.bijitongbu.site/p/a45e2f030336ec5e97ec1c4876953980.png)
+![[笔记同步助手/images/1cdd3cf55113c72ff107993210828f3f_MD5.png]]
 
 > 新建数字员工（Waker） 弹窗。挑一个员工卡片，填写名字、头像和岗位简介，下方"保存并启用"按钮一点，他就入职了。
 
@@ -73,7 +73,7 @@ N 个真人和 M 个数字员工共享同一个项目空间，分工和上下文
 
 每位数字员工都自带一个权限中心，四个维度把防护拆成工具防护、文件防护、内置工具、模型安全，每一类下面都是命过名、有严重程度、可独立开关的规则。
 
-![](https://relay-1.bijitongbu.site/p/15aa5d5d4d4ad76121019831e34e90d8.png)
+![[笔记同步助手/images/74f1b9576775d8831846480dac66d75b_MD5.png]]
 
 「工具防护」拦截命令注入和资源滥用，破坏性命令默认拦截，命中高危规则先请你授权；动文件前先备份，按目录设白黑名单；内置工具（代码搜索、终端、浏览器等）逐项可开关；模型对外输出经过独立护栏。能力交给模型和工具，边界由权限中心兜底。
 
@@ -90,7 +90,7 @@ N 个真人和 M 个数字员工共享同一个项目空间，分工和上下文
 -   IM Channel：在 IM 里 @ 他，和派活给真人组员一样。
     
 
-![](https://relay-1.bijitongbu.site/p/2b55e644f5d7192147cfddceaa1c5847.png)
+![[笔记同步助手/images/6c813c67cb06a3a1cffcf3ce2e95b218_MD5.png]]
 
 > 自动任务配置页。绑定好项目，触发方式选“事件 / 由 Git 仓库事件触发”。换成“定时”就是定时任务视图。
 
@@ -100,7 +100,7 @@ N 个真人和 M 个数字员工共享同一个项目空间，分工和上下文
 
 GitHub 有 Issue 被提交，webhook 自动触发他开始干活。每个任务跑完都留下一份结构化的交付摘要：改了什么、跑了什么验证（Typecheck / Test / Build）、识别了哪些风险、PR 链接、推荐的 follow-up。你不需要打开 IDE，不需要拼凑现场。
 
-![](https://relay-1.bijitongbu.site/p/b03ec8f52c090625f05341791308bfff.png)
+![[笔记同步助手/images/fe9c6e3fd7a42ff8ed041cebbbbde77a_MD5.png]]
 
 > 一次自动任务跑完的样子。Delivery Summary 含 What changed / Verification results / Resolved risks / PR status / Follow-up。Typecheck、Test、Build 三项验证都标了具体输出；PR 链接直接可点。右侧是这位数字员工 Alex 的历史任务列表。
 
@@ -108,7 +108,7 @@ GitHub 有 Issue 被提交，webhook 自动触发他开始干活。每个任务�
 
 跑过的活会沉淀在他的 Waker 详情页里：一张工作热力图、一份记忆与规则清单、一份持续生长的技能库。每一次执行都是经验，第 1 天是基线，第 7 天就是你团队的资深专家。
 
-![](https://relay-1.bijitongbu.site/p/7062b419df4115885fd9c460639562c3.png)
+![[笔记同步助手/images/0022165c62bcb5240a7fcfe4625e7d42_MD5.png]]
 
 ### 只需更多角色，便带来更多生产力
 
@@ -116,7 +116,7 @@ GitHub 有 Issue 被提交，webhook 自动触发他开始干活。每个任务�
 
 比如自定义一位“产品分析员 Lindy”，她接到"做一份数字员工市场调研报告"之后，会自己把任务拆成五个阶段：范围与数据集、Porter Five Forces / PESTLE / SWOT、可视化图表、LaTeX 排版、PDF 编译，从定义范围、竞品分析、可视化图表到最终输出 PDF，一项一项跑完。
 
-![](https://relay-1.bijitongbu.site/p/88dc6ff48ec3bfb49c187c4236303c88.png)
+![[笔记同步助手/images/191f63cdd64a41337d02b1f884f18aed_MD5.png]]
 
 > 产品分析员 Lindy 的对话页。深度思考、加载技能、列出待办事项，从“定义范围”到“编译 PDF 并送审”，整张计划在你按下回车后自动展开。
 
@@ -153,7 +153,7 @@ QoderWake 的驾驭工程实现了解耦编排、任务循环、上下文工程�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GicicSW0VicbibmyIAuP0ibW99OG23DO1tiatde99JfJtlxdy8X8OuTd5fG7u3YPIYP1rBm1FRL9w8yqyE65FOMXM3daU9cUc9Tn7fz28zVyJj8a0/0?wx_fmt=jpeg)
+![[笔记同步助手/images/c26915ef1f23874963135c63bfcf80fb_MD5.jpg|cover_image]]
 
 Qoder
 

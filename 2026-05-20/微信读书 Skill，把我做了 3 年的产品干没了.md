@@ -22,7 +22,7 @@ readecho 是我和搭档两年前开始做的小产品。
 
 功能不复杂，Readecho 可以把你微信读书里的划线和笔记同步出来，再用 AI 帮你做一些分析和洞察。
 
-![](https://relay-1.bijitongbu.site/p/2c14d29410b09da721df92a89396e675.png)
+![[笔记同步助手/images/f5e216e53d8e09e04cc6599ed225a949_MD5.png]]
 
 上线到现在做了一千多个用户，也有一点微薄的收入。
 
@@ -32,13 +32,13 @@ readecho 是我和搭档两年前开始做的小产品。
 
 而这次官方 Skill，微信把之前开放的笔记和划线，扩大到了书**架、阅读时长、章节目录、热门划线、个人想法、阅读统计、推荐书单。**
 
-![](https://relay-1.bijitongbu.site/p/2ef0b6581f52a86df0ac8785d63025ca.png)
+![[笔记同步助手/images/5ee5f105f0dafc7a2d1b61836c29e119_MD5.png]]
 
 它的安装方式也非常简单，
 
 访问微信读书网页版，到 Skill 页面，只需要操作下面两步就能在 Agent 里调用了。
 
-![](https://relay-1.bijitongbu.site/p/fbaebdb10d013d79b232f391816c7709.png)
+![[笔记同步助手/images/39fba598fe2c33f51aa4075faf672d7b_MD5.png]]
 
 之前我还一直在说**很多 Skill 的开放让一些 sass 产品没有存在的价值了**。
 
@@ -84,13 +84,13 @@ readecho 是我和搭档两年前开始做的小产品。
 
 它会先问你两件事：要 Markdown 还是 PDF，要全部书还是指定一本。
 
-![](https://relay-1.bijitongbu.site/p/39aeb66eb873257907c12786a8abee69.png)
+![[笔记同步助手/images/36511338457d41bd31c96ec18c4af809_MD5.png]]
 
 回答完就开始干活，自动调用接口，把所有笔记按书籍和章节排序，每条划线带上时间，生成排版整洁的文件。
 
 我自己跑了一遍，87 本书、436 条划线、48 条想法，几分钟跑完，输出一份 158KB 的 Markdown 和一份 2.9MB 的 PDF。
 
-![](https://relay-1.bijitongbu.site/p/465ac80174cd6d802118a49e530581a5.png)
+![[笔记同步助手/images/b2695822ea5dbb0cef76169e2886ab6c_MD5.png]]
 
 导出之后能干什么？
 
@@ -110,7 +110,7 @@ readecho 是我和搭档两年前开始做的小产品。
 
 比如下面是我导出的《聪明的投资者》这本书的热门划线，它还会统计这条划线有多少人。
 
-![](https://relay-1.bijitongbu.site/p/b8a48c03334196f0ce1e27649fde29f6.png)
+![[笔记同步助手/images/544eaa2abb34ff467cb43311892f9479_MD5.png]]
 
 **2\. 分析：一份 10 维度的阅读画像**
 
@@ -120,9 +120,9 @@ readecho 是我和搭档两年前开始做的小产品。
 
 最后输出一个 9:16 比例的白底简约 HTML 报告，11 张卡片，可以截屏发小红书。
 
-![](https://relay-1.bijitongbu.site/p/7d20f1313628846747d826a11cbfbf54.png)
+![[笔记同步助手/images/c8905aa976470498981fceac93e6bbfa_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/31b57db203f57752350be15def1deab9.png)
+![[笔记同步助手/images/9a8eaa26b9e433bdf3db111ee46975b8_MD5.png]]
 
 我用自己的数据跑了一次，有几个发现挺扎心：
 
@@ -144,15 +144,15 @@ Skill 还会基于阅读偏好猜一个 MBTI，给我的判断是 INFJ，差一�
 
 比如下面场景，我让它给我推荐一些理财相关的书籍，它会结合我书架上已经读过的书来判断我的段位，结合我的兴趣来推荐。
 
-![](https://relay-1.bijitongbu.site/p/a7cdd32eb0f30f2847cea4c8261c9054.png)
+![[笔记同步助手/images/d5a6e171673a958f759cba163f85d865_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/7b801a56746adb5176dceb76ccc94735.png)
+![[笔记同步助手/images/2cd845034825d2b7d2868c856956a232_MD5.png]]
 
 **2）引用**
 
 比如下面我让他根据我在写的 Ai 改变生产力主题的文章，推荐一些热门划线。
 
-![](https://relay-1.bijitongbu.site/p/3c0a48ee5085504148093204693c3ebe.png)
+![[笔记同步助手/images/5f2064147c416c0e577812bc70f249d6_MD5.png]]
 
 它会从你的 436 条划线里筛出最相关的几条，附上原话、书名、章节，并给出使用建议。
 
@@ -168,7 +168,7 @@ Skill 还会基于阅读偏好猜一个 MBTI，给我的判断是 INFJ，差一�
 
 把你过去的阅读，重新变成一种持续的精神资源。就像我在Readecho 里做的这个回顾卡片
 
-![](https://relay-1.bijitongbu.site/p/06f9f18223cfd5f6cc0fd9ec3efefe8a.png)
+![[笔记同步助手/images/0fd70bb27cf694d243a46f04a41f928a_MD5.png]]
 
 所有 Skill 都已经开源放到 GitHub 上：
 
@@ -191,7 +191,7 @@ github.com/zephyrwang6/space-weread
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/CFe2b8yvCoxY8ia3rvKyCH62ONPdnrTneAg96WopiahYNHQiceMx7p92dqiakCWD2jEB09uWLY5ibXnQF64mEqQpyNZSImnFVGFyHPKzLPX3IcCU/0?wx_fmt=jpeg)
+![[笔记同步助手/images/8f4b32f4be117b0c29e182a100a4a397_MD5.jpg|cover_image]]
 
 Original 空格丶 空格的键盘
 

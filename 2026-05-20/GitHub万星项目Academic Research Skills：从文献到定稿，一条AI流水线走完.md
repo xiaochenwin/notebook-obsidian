@@ -192,7 +192,7 @@ ARS 的功能本身，对人文社科研究者的价值是巨大的——甚至�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/5uq4oWibuz9f2yYq0Q85oecb8NVxB0m8K7Shezrlkd1jfV2xDbhnOOrtCkNJ10IKGVVezmyekAttkKypywZIxibiaGnS39hSVmdHy6VfK2iarYE/0?wx_fmt=jpeg)
+![[笔记同步助手/images/023276968ef33f94e95d4ec5609977da_MD5.jpg|cover_image]]
 
 原创 星塔学术 星塔学术
 

@@ -81,7 +81,7 @@ id: 266bea09-ae36-4427-901a-084b96539670
 
 Mac 和 Windows 都支持，从 OpenAI 官网下载：**openai.com/codex**
 
-![](https://relay-1.bijitongbu.site/p/ba3bc0075d0eb9a0e3ba1499896cefaa.png)
+![[笔记同步助手/images/7d066332c67e7ce06c3c7b74166026cd_MD5.png]]
 
 安装过程和普通软件一样：
 
@@ -100,7 +100,7 @@ CLI 需要先装 Node.js（18 以上版本），然后一行命令：
 
 npm install -g @openai/codex
 
-![](https://relay-1.bijitongbu.site/p/ed487f519e8fbd1ac9cc79bf80bf9c7f.png)
+![[笔记同步助手/images/d68f67e9ed2c26eecc6fd7d21184625a_MD5.png]]
 
 国内网络环境装不上的话，用阿里云镜像：
 
@@ -108,7 +108,7 @@ npm install -g @openai/codex
 
 npm install -g @openai/codex --registry=https://registry.npmmirror.com
 
-![](https://relay-1.bijitongbu.site/p/d2d18c585fada87edfad114a70b5b6c4.png)
+![[笔记同步助手/images/767ad91935fa01645ec261df0120c862_MD5.png]]
 
 装完在终端输入 `codex` 回车，按提示登录 OpenAI 账号。CLI 登录是通过浏览器跳转授权的，同样需要🪜。
 
@@ -127,7 +127,7 @@ npm install -g @openai/codex --registry=https://registry.npmmirror.com
 -   **右边**——结果区：Codex 生成的文件、网页预览、代码差异都在这显示
     
 
-![](https://relay-1.bijitongbu.site/p/8fddfd40f3a68735c84ef1c25e070425.png)
+![[笔记同步助手/images/974c78f3c885d31105798000d8a2dcb1_MD5.png]]
 
 先知道"**左边找入口、中间说话、右边看结果**"就够了。
 
@@ -145,7 +145,7 @@ npm install -g @openai/codex --registry=https://registry.npmmirror.com
 
 新建项目时，Codex 会让你选权限等级：
 
-![](https://relay-1.bijitongbu.site/p/4fc8440c2c23ff06b604a7b2fd98770b.png)
+![[笔记同步助手/images/56e88865fc6356c2bb8cb9343d99dbad_MD5.png]]
 
 权限越高，Codex 能自主做的事越多，但风险也越大。**刚开始建议选中间档，操作前会先问你确认。** 等你熟了，再根据需要调高。
 
@@ -168,13 +168,13 @@ npm install -g @openai/codex --registry=https://registry.npmmirror.com
 3. 输出为 Word 文档
 ```
 
-![](https://relay-1.bijitongbu.site/p/745d09409e86e26e5a1ffd01d210752f.png)
+![[笔记同步助手/images/24c9caabd0c47f86f0997d4ee4274024_MD5.png]]
 
 Codex 会自动打开内置浏览器搜索资料，整理数据，最后生成一份排版完整的 Word 文档，几分钟后就生成了 4200 字的word 文档。
 
 整个过程你只需要提需求，剩下它全包了。这活人工来做，搜资料、整理、排版，没个大半天搞不定。  
-![](https://relay-1.bijitongbu.site/p/20c1712e3d37c79d666db45770beeceb.png)  
-![](https://relay-1.bijitongbu.site/p/d60c2d202f427342017ac2ed1e1518c4.png)
+![[笔记同步助手/images/babed4faf9e82fb291af41999453690f_MD5.png]]  
+![[笔记同步助手/images/11ab7accc16d9e2ef68ef54f5fbd2653_MD5.png]]
 
 **说个我自己的经历。** 之前我要申请 B 站开放平台的数据，需要填一份 Word 模板表格。字段多，格式严格，人工填至少半小时。我直接把营业执照图片丢给 Codex，让它帮我对着模板填，几分钟就搞定了。这种重复性的文档工作，交给它是真的香。
 
@@ -182,7 +182,7 @@ Codex 会自动打开内置浏览器搜索资料，整理数据，最后生成�
 
 Codex 内置了 Presentations 插件，可以直接生成演示文稿。基础的 PPT 它能搞定，但说实话，**想做出更专业的 PPT，需要配合 Skill 和 MCP 来用，效果会好非常多。** 这个展开讲内容太多了，后面我会单独出一期详细教程，感兴趣的先关注不迷路。
 
-![](https://relay-1.bijitongbu.site/p/aae693b55e5b0b8c157a14d0d5cb954e.png)
+![[笔记同步助手/images/ab36f220fa5f3f874c7522fd587667f2_MD5.png]]
 
 ### 3、电脑操控：几个实用又安全的场景
 
@@ -198,16 +198,16 @@ Computer Use 是 Codex 最强的功能之一，说白了就是让 AI 直接操�
 ```
 
 操作过程会要些权限  
-![](https://relay-1.bijitongbu.site/p/68c8e1b37d1558ac4d2b8a5f381397b2.png)
+![[笔记同步助手/images/995707be82e0ab0cbff840efbc75b5e5_MD5.png]]
 
 Codex 会自动打开浏览器，进入知网，输入关键词搜索，设置时间筛选，然后逐篇提取信息整理成表格。这套操作人工来做，光是复制粘贴就得小半个小时。  
 codex 只用了 7 分钟就搞定了，这过程完全自己休息，还有很多场景可以探索。  
-![](https://relay-1.bijitongbu.site/p/2075bf827bf3f9ceff75cd442a56a9f1.png)
+![[笔记同步助手/images/39773d3820bc9c854dccc6bc0bb360e7_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/638a92869214483e24e9e125ad579029.png)
+![[笔记同步助手/images/077d90ec54af22d0cedd58936f6c432f_MD5.png]]
 
 论文都是真实存在的，数据也对上，比如  
-![](https://relay-1.bijitongbu.site/p/84d2af46d669bd11f697f1d49d11da77.png)
+![[笔记同步助手/images/1fe315da9e8f457169c9fe77e116a30f_MD5.png]]
 
 类似的场景还有很多：
 
@@ -233,7 +233,7 @@ codex 只用了 7 分钟就搞定了，这过程完全自己休息，还有很�
 
 点左侧"插件"，你会看到这些功能模块：
 
-![](https://relay-1.bijitongbu.site/p/58a115182205566ca5b1d776a4f55d57.png)
+![[笔记同步助手/images/de53a5274a7583b59531c67c50846ced_MD5.png]]
 
 -   **Spreadsheets**——处理表格
     
@@ -249,7 +249,7 @@ codex 只用了 7 分钟就搞定了，这过程完全自己休息，还有很�
 这里可能还会看到 Skill、MCP 这些词，别慌，简单理解：**插件是能力包，Skill 是工作流说明书，MCP 是接工具的通道。** 都是让 Codex 能干更多事。
 
 插件里面还有技能，就是 skill，可以在这个页面进行管理  
-![](https://relay-1.bijitongbu.site/p/81dbf4a3e77e33b0484859b9952bd90d.png)
+![[笔记同步助手/images/4ea5302f160915f7d20fad238e47d907_MD5.png]]
 
 **建议：刚开始只用官方内置插件，别贪多，用到再装。**
 
@@ -257,7 +257,7 @@ codex 只用了 7 分钟就搞定了，这过程完全自己休息，还有很�
 
 自动化就是让 Codex 在某个时间点或按某个频率，自动执行你提前设好的任务。比如每天早上帮你整理邮件、每周生成一次项目周报、定时监控某个网页变化。
 
-![](https://relay-1.bijitongbu.site/p/3e8d8031829eedcc38b80614a490badd.png)
+![[笔记同步助手/images/25ef63bacaee4a31941bccb84a768b81_MD5.png]]
 
 **建议：先把前面的功能玩熟了，再来折腾自动化。**
 
@@ -289,7 +289,7 @@ codex 只用了 7 分钟就搞定了，这过程完全自己休息，还有很�
 codex
 ```
 
-![](https://relay-1.bijitongbu.site/p/ad0a3ea659b8370bf8f190d235898145.png)
+![[笔记同步助手/images/9aded71bdd12b4b3f5ac4b172ec664e6_MD5.png]]
 
 ### 2、直接告诉它你要什么
 
@@ -301,11 +301,11 @@ codex
 ```
 
 Codex 会自动创建文件、写代码，完成后你直接用浏览器打开生成的 HTML 文件就能玩。  
-![](https://relay-1.bijitongbu.site/p/026229e2c7e908a35bdeb2c9b08b69f1.png)
+![[笔记同步助手/images/b3578702bb8726159094cdfb0d6b5ddb_MD5.png]]
 
 注意，cli 和 codex 桌面版是共享会话内容的，也就是你在 cli 里面对应的目录的 session 在 codex 桌面端也会显示。
 
-![](https://relay-1.bijitongbu.site/p/da9a8fe46f257f0ba9fabf37cf24a539.png)
+![[笔记同步助手/images/5b09d3a897414ebab45466f3f3795df7_MD5.png]]
 
 整个过程你不需要懂代码，只需要描述需求。觉得不满意？继续说"把速度调慢一点"、"加个排行榜"，它会接着改。
 
@@ -374,15 +374,15 @@ CLI 有三个权限等级：
 
 **用 @ 精准指定文件。** 在对话框输入 @，可以选择项目目录下的具体文件，让 Codex 只看你要它看的：
 
-![](https://relay-1.bijitongbu.site/p/bf9935a13fff7a9e23bc341e9663abb1.png)
+![[笔记同步助手/images/6ad6a4db4a312fbdd63861f0cbc71a38_MD5.png]]
 
 **查看剩余额度。** 点击额度显示区域，可以看你的使用情况。我这是 Plus 账号，日常轻度使用是够的：
 
-![](https://relay-1.bijitongbu.site/p/926460393309c11f2b0047b382a5a848.png)
+![[笔记同步助手/images/26203658049683007eedaefb5a77a0f6_MD5.png]]
 
 **模型和速度选择。** 模型选最新的 GPT 5.5 就行。速度一般用"常规"，"快速"是 1.5 倍速但额度消耗也会增加：
 
-![](https://relay-1.bijitongbu.site/p/3f03d968b2354cbbaba7857a57fe13f4.png)
+![[笔记同步助手/images/5b8c5952e18ff1fa1d5b281268510bf3_MD5.png]]
 
 **CLI 和 App 会话是共享的。** 你在 CLI 里某个目录下的对话，在 Codex App 桌面端也能看到，两边同步。
 
@@ -394,7 +394,7 @@ Codex 说白了就是目前最值得上手的 AI 工具之一。App 把使用门
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/YHZARf33mbFLYQYv81eGTUMXwHraL2MAtGJg112tFeqS37NYHcDiam5BFDUk9GXfD665ibOd0pTznLK5qE5Ho3iaRWqcsgmB6KdHnibiarficxnCA/0?wx_fmt=jpeg)
+![[笔记同步助手/images/361e3e3b7918fda38227d2e7a836b4a9_MD5.jpg|cover_image]]
 
 原创 库森 程序员库森
 

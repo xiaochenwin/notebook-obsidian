@@ -24,7 +24,7 @@ id: c00f93a6-5f5a-4624-965f-357c42836dcf
 
 建议有兴趣的读者前往观看 _AI Engineer_ 频道内容，持续跟进最新技术动态与实践方法。
 
-![YouTube频道AI Engineer的内容截图，展示硅谷工程师分享技术的视频画面](https://relay-1.bijitongbu.site/p/76579d2e9d9f03641c173bf53482c04f.jpg)
+![[笔记同步助手/images/e58a688130a4ee140cb526c42d2db64f_MD5.jpg|YouTube频道AI Engineer的内容截图，展示硅谷工程师分享技术的视频画面]]
 
 YouTube频道AI Engineer的内容截图，展示硅谷工程师分享技术的视频画面
 

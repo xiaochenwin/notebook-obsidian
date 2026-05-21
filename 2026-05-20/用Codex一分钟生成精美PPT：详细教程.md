@@ -26,7 +26,7 @@ id: f22b1f9c-8585-4957-b06c-76c9b149beb9
 
 最后，将生成视觉方案的提示词粘贴到指令框，并注意调用`image`功能。稍等片刻，Codex就会输出一个完整的PPT文件，支持直接下载。整个过程不超过一分钟，所有内容均可编辑修改。
 
-![演示在Codex中粘贴提示词并调用image功能生成PPT的界面](https://relay-1.bijitongbu.site/p/5c6dc70e4c3274d595bca945442127e2.jpg)
+![[笔记同步助手/images/53e72cb2d9f757bb00418fd5834b3646_MD5.jpg|演示在Codex中粘贴提示词并调用image功能生成PPT的界面]]
 
 演示在Codex中粘贴提示词并调用image功能生成PPT的界面
 

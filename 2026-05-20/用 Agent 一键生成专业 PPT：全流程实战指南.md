@@ -14,7 +14,7 @@ id: bf50a6c8-4a94-431b-9508-c6b6360016b5
 
 在人工智能快速发展的今天，传统的 PPT 制作方式正在被彻底颠覆。通过 AI Agent 驱动的自动化流程，用户仅需一句话指令，即可生成风格统一、结构完整、数据联动的专业级演示文稿。本文将带你深入掌握如何利用 Cloud Code 与 HTML-based PPT 工具链，实现从内容输入到多场景输出的全流程自动化。
 
-![视频开场展示四类生成的 PPT 示例：线下分享 Deck、财务报告、学术答辩、小红书九宫格](https://relay-1.bijitongbu.site/p/70024a3b10d707d94b0507e235f45d76.jpg)
+![[笔记同步助手/images/bd2f403ab41ea31b8fdaac1ad4b3a724_MD5.jpg|视频开场展示四类生成的 PPT 示例：线下分享 Deck、财务报告、学术答辩、小红书九宫格]]
 
 视频开场展示四类生成的 PPT 示例：线下分享 Deck、财务报告、学术答辩、小红书九宫格
 
@@ -31,11 +31,11 @@ id: bf50a6c8-4a94-431b-9508-c6b6360016b5
 
 两种风格均内置 22 种预设版式，确保每一页内容布局合规，避免字体溢出、图片错位等问题，实现“强约束=不翻车”。
 
-![Style A：电子杂志风格 PPT 示例](https://relay-1.bijitongbu.site/p/eaf8f7f7200349336d42ced2d47a8d62.jpg)
+![[笔记同步助手/images/01429159341724f502fede106547b433_MD5.jpg|Style A：电子杂志风格 PPT 示例]]
 
 Style A：电子杂志风格 PPT 示例
 
-![Style B：瑞士国际风格 PPT 示例](https://relay-1.bijitongbu.site/p/e15361facdc6bed71cd02dadbf17e3de.jpg)
+![[笔记同步助手/images/b932e1a0af264e870f583a4e13cf8818_MD5.jpg|Style B：瑞士国际风格 PPT 示例]]
 
 Style B：瑞士国际风格 PPT 示例
 
@@ -50,7 +50,7 @@ Style B：瑞士国际风格 PPT 示例
 
 该能力极大提升了报表类文档的制作效率与专业度，让领导直观感受到“做事靠谱”的执行力。
 
-![业务复盘 PPT：含可交互折线图与 KPI 数据面板](https://relay-1.bijitongbu.site/p/9c69c0da85e1624d1a1b5839da37a51c.jpg)
+![[笔记同步助手/images/7cce0d759aef1f19d66ea906412e5223_MD5.jpg|业务复盘 PPT：含可交互折线图与 KPI 数据面板]]
 
 业务复盘 PPT：含可交互折线图与 KPI 数据面板
 
@@ -65,7 +65,7 @@ Style B：瑞士国际风格 PPT 示例
 
 用户无需记忆具体指令，只需说明用途，AI 即可智能匹配最合适的设计语言。
 
-![学术答辩风格 PPT：带引用角标与论文结构](https://relay-1.bijitongbu.site/p/547ebb7c37a68edb8e3b9ac9d28d3c97.jpg)
+![[笔记同步助手/images/0504e572a619187352f164e6eef0f7dc_MD5.jpg|学术答辩风格 PPT：带引用角标与论文结构]]
 
 学术答辩风格 PPT：带引用角标与论文结构
 
@@ -79,7 +79,7 @@ Style B：瑞士国际风格 PPT 示例
 
 生成后直接截图上传，三分钟完成一条高质量小红书笔记，效率远超传统设计工具。
 
-![小红书九宫格图文输出：3:4 比例，风格统一](https://relay-1.bijitongbu.site/p/5a21e2a5026faa43a42f776849d32459.jpg)
+![[笔记同步助手/images/739c57b509ad5245e2e9b15215eed14c_MD5.jpg|小红书九宫格图文输出：3:4 比例，风格统一]]
 
 小红书九宫格图文输出：3:4 比例，风格统一
 
@@ -105,7 +105,7 @@ Style B：瑞士国际风格 PPT 示例
 
 由海外开发者 Levin 开发，定位为“瑞士军刀型”工具。内置 36 套主题、15 类模板、47 种动效，功能全面，支持演讲者模式、数据绑定、多平台适配，适合复杂多变的办公需求。
 
-![HTML PPT 工具功能概览：多主题、多动效、演讲者模式](https://relay-1.bijitongbu.site/p/6dab49a8d06f3a055cf2a573d4570716.jpg)
+![[笔记同步助手/images/dc41e11d3439a53bd242a3879140d77b_MD5.jpg|HTML PPT 工具功能概览：多主题、多动效、演讲者模式]]
 
 HTML PPT 工具功能概览：多主题、多动效、演讲者模式
 
@@ -121,7 +121,7 @@ Cloud Code 的真正优势在于其“乐高式”组合能力。以演讲者模
 
 最终效果：主屏展示精美画面，副屏显示讲稿与提示，完美适配线下演讲需求。这体现了 Agent 不是黑盒产品，而是可拆解、可重组的智能积木。
 
-![演讲者模式开启：主屏演示 + 副屏讲稿同步](https://relay-1.bijitongbu.site/p/e7efe12027f86461ae6d13715f5a1a82.jpg)
+![[笔记同步助手/images/a65d462c4ea7ffe118202518aefc0eef_MD5.jpg|演讲者模式开启：主屏演示 + 副屏讲稿同步]]
 
 演讲者模式开启：主屏演示 + 副屏讲稿同步
 
@@ -135,7 +135,7 @@ Cloud Code 的真正优势在于其“乐高式”组合能力。以演讲者模
 
 此流程将内容创作与演示输出无缝衔接，真正实现“让 AI 听懂人话、自主决策、调用工具完成任务”。
 
-![从 Opsidian 笔记生成 PPT 的自动化流程示意图](https://relay-1.bijitongbu.site/p/2e1ff5dbec12338be05b367c7757c4d4.jpg)
+![[笔记同步助手/images/bff12a36beda1bea0528a71a83c1f9ad_MD5.jpg|从 Opsidian 笔记生成 PPT 的自动化流程示意图]]
 
 从 Opsidian 笔记生成 PPT 的自动化流程示意图
 

@@ -1,0 +1,174 @@
+---
+author: 空格丶
+source: 微信公众号
+url: https://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247495215&idx=1&sn=2f644c4fce9bd05db310f00e3fe267a1&chksm=c07e995188907365b79b4af0aa48fb8369f2c7a396a6eb91cc4a95df783da08cc6ed6b09696a&mpshare=1&scene=1&srcid=0521WxEQOWItHTTFNAIKKLnQ&sharer_shareinfo=d6c3fbdd86bc147506923aa237c28beb&sharer_shareinfo_first=d6c3fbdd86bc147506923aa237c28beb#rd
+saved: 2026-05-21 08:35:12
+tags:
+  - 笔记同步助手
+id: afaf94e8-9eb7-41b2-837d-f04d583b754f
+---
+
+公众号名称：空格的键盘
+
+作者名称：空格丶
+
+发布时间：2026-05-21 08:00
+
+微信正在灰度 AI 总结聊天记录的功能。
+
+这让我想到前几天在社群里和朋友闲聊，看到群友发一份精美的日报。
+
+第一反应是：现在 Agent 做出来的群聊总结，已经到了一个我没想到的高度。
+
+带头像，带金句，带故事线，像一份真实的报纸。
+
+**微信官方的 AI 总结**
+
+这是最近几天才灰度的功能，可能很多人还不知道
+
+操作路径是这样的：
+
+打开微信，进入聊天界面（单聊或群聊），长按某条消息，菜单里点「多选」。
+
+选好要总结的消息（最多 100 条），点转发，再点「合并转发」。
+
+跳到「选择聊天」页面，点「转发到其他应用」，选「元宝」。
+
+![](https://relay-1.bijitongbu.site/p/50801c931f96572f286937da921cd9a8.png)
+
+元宝就会自动总结。
+
+整个流程很丝滑，但是这个目前还在灰度，而且每次总结100 条上限。
+
+相比于下面我要分享的用 Agent skill 总结消息，感觉完全是两个时代的产物。
+
+**这个 Skill 把群聊总结成报告**
+
+我在我自己的社群「AI-PAC 效能社群」看到群友发了一份日报，用的是一个开源的 Skill。
+
+这个 skill 能把一整周甚至一个月的群聊，做成一份带头像、带金句、带故事线的杂志风日报。
+
+下面就是我们群这一周的周报。
+
+我看完之后有两个点让我感到很惊讶：
+
+一个是我们社群原来一周能聊挺多干货的 ，还有一个是这微信聊天记录现在竟然能用 skill 做成这样的报告。
+
+![](https://relay-1.bijitongbu.site/p/98b4ccac0cf7c6478327731e4c342c3e.png)
+
+![](https://relay-1.bijitongbu.site/p/0da317f1d47885bf40c3611d06794ac0.png)
+
+然后我自己折腾了一会，把这两个 skill 装好后，又拿自己的社群跑了上个月的聊天记录，效果好到出乎意料，我让它突破极限，总结了最近一个月的社群聊天记录。图有点长，可以快速划过。
+
+![](https://relay-1.bijitongbu.site/p/b7831e16e9506b0a301e73231e1f40de.png)
+
+输出形态有报头、有主标题、有 6-8 段时间故事线（每段带真实头像）、有今日高光人物卡、有可以直接抄作业的 SOP 和 Q&A，最后一句当天最有共鸣的话压尾。
+
+我把这个skill做成了一个定时任务
+
+每周一给我总结我所在的社群讨论的内容，这样子，Agent 可以自己来执行，不需要我去插手，输出完之后我就可以发到社群里，对于我运营社群是极大的便利。
+
+记得前段时间就有人做过这样的事情，但现在有了 skill 来做就更加方便了。
+
+**这个 Skill 怎么用**
+
+目前这个 Skill 在 GitHub 上开源，创作者是 Larkin0302
+
+这是他的主页地址 ：https://github.com/Larkin0302
+
+这个 skill 设计的很美观，本来想找作者交流一下，可惜没找到联系方式。
+
+它其实是两个搭配在一起的 Skill。
+
+**group-daily**做杂志风的日报，输出 HTML + 一张 900px 宽的长图 PNG，发群、发朋友圈很顺手。
+
+**group-daily-newspaper**做人民日报式的 A3 报纸版，2 版、4 版、6 版按当天聊天量自动决定，可以直接打印出来。
+
+![](https://relay-1.bijitongbu.site/p/674daeb0173b7f8528d5c3015cca1bf2.png)
+
+使用步骤，把下面内容发给你的 Agent
+
+🪄​帮我把 https://github.com/Larkin0302/group-daily 和 https://github.com/Larkin0302/group-daily-newspaper 这两个 skill 装上。
+
+还要依赖一个插件，具体可以看 Skill 的要求来装。
+
+安装完之后，用法很简单，只需一句话：
+
+​
+
+> 「帮我给 XX 群做一份今天的群日报」
+
+Agent 会自动跑完后续流程：拉聊天记录、把语音也转写成文字、读完之后提炼时间故事线、找今天的高光人物、导出头像、渲染 HTML、或 PDF，最后自动打开给你看。
+
+**它能用在哪些场景**
+
+基于上面的 Skill，我又摸索了一些用法进行汇总，给你一些灵感。
+
+## 1\. 社群运营必备
+
+如果你是群主，或者在帮品牌、公司运营社群，这套 Skill 就是是开挂。
+
+每天一份日报甩到群里。群友看到自己头像出现在「今日高光人物」，会有种被看见的快乐。情绪价值拉满。它会把群里散落的工作流、金句、好问题自动沉淀成 SOP 和 Q&A。
+
+一年下来，相当于给社群免费做了一本年鉴。
+
+## 2\. 错过的消息一键补课
+
+工作日忙起来，几百上千条未读是常态。一条条往上翻，眼睛都看花。
+
+直接让 Skill 帮你跑一份过去 24 小时、过去 3 天、过去一周的群日报。
+
+重点信息、谁在 @ 你、有没有值得跟进的话题，一张图全看完。
+
+除了告诉你被 cue 了，还顺带把上下文也讲清楚。
+
+## 3\. 自我画像与情感分析
+
+这个用法最有意思。
+
+把你和某个朋友、某个家人、甚至某段感情期间的聊天记录喂给 Claude，让它分析：
+
+-   你和对方的沟通模式
+    
+-   你在什么话题上情绪起伏最大
+    
+-   你最近的状态是不是在内耗
+    
+-   这段关系里谁更主动、谁在回避
+    
+
+它能看到你自己看不到的模式。我试过把和一个老友半年的对话拉出来跑一遍，结论是「你在这段关系里持续输出价值，但很少表达需求」。
+
+![](https://relay-1.bijitongbu.site/p/97839880d6699d5f135be41fc7d3c056.png)
+
+![](https://relay-1.bijitongbu.site/p/304f9e3df0507d559ecaae0645c10df3.png)
+
+## 4\. 知识沉淀与回顾
+
+技术群、读书群、行业交流群，这种群每天都在产生干货，但翻聊天记录的成本太高，大家就默认这些信息是一次性消费。
+
+跑一份周报或月报出来，挑真正有价值的讨论存进自己的笔记系统。过段时间回看，你会发现自己一年下来其实是被这些群养大的。
+
+![](https://relay-1.bijitongbu.site/p/aac5382a76dc2cc138dd18a77ac1f33d.png)
+
+## 5\. 关键时刻纪念
+
+朋友家人群里有重大事件：结婚、生子、聚会，把那一天的聊天记录做成 A3 报纸版，很有纪念意义。
+
+下面是我印出来就是一份日报的感觉，4 版面，有头条有副刊，瞬间让聊天记录变得有收藏价值。
+
+![](https://relay-1.bijitongbu.site/p/2fead6844e3424f2a896ef9e5c4deecf.png)
+
+上面这几种形式我还在做实验，如果感兴趣可以在后台回复：聊天记录，我尽快上架后发大家体验。
+
+之前都是自己在做 skill，这才发现原来市面上有很多人做了这么多有意思的 skill，如果大家看到好玩的 skill 也可以评论区分享下。
+
+---
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/CFe2b8yvCozXyiaC1oRMvuic9RsuYuqYm3KKC6npvYSPvPvGzz9ibsHBWianVNeib8RVZh9FN8gUDn67xeFfgNWcTiarGEOMqSzLlfCkTnVr9mXng/0?wx_fmt=jpeg)
+
+原创 空格丶 空格的键盘
+
+---
+
+内容效果不满意？[点此反馈](https://feedback.notebooksyncer.com/feedback/d0285c32_1779323711571?u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzkxMTQ0ODE3Ng%3D%3D%26mid%3D2247495215%26idx%3D1%26sn%3D2f644c4fce9bd05db310f00e3fe267a1%26chksm%3Dc07e995188907365b79b4af0aa48fb8369f2c7a396a6eb91cc4a95df783da08cc6ed6b09696a%26mpshare%3D1%26scene%3D1%26srcid%3D0521WxEQOWItHTTFNAIKKLnQ%26sharer_shareinfo%3Dd6c3fbdd86bc147506923aa237c28beb%26sharer_shareinfo_first%3Dd6c3fbdd86bc147506923aa237c28beb%23rd&s=obsidian)

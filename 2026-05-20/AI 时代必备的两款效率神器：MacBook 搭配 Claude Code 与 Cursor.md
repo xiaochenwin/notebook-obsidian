@@ -20,7 +20,7 @@ id: ba1e15dd-d946-4854-86d5-ad4fc15e7688
 
 ## 核心软件：Claude Code 与 Cursor
 
-![Claude Code 与 Cursor 的界面示意图](https://relay-1.bijitongbu.site/p/d4c3dd0658c455d18511579f1e2c89d4.jpg)
+![[笔记同步助手/images/88eb5e9db40e939710b29d22b00fdd6f_MD5.jpg|Claude Code 与 Cursor 的界面示意图]]
 
 Claude Code 与 Cursor 的界面示意图
 

@@ -23,7 +23,7 @@ Amphetamine 是一款发布多年的老牌应用，持续更新并支持多语�
 -   **应用触发**：可设置当特定应用运行时自动保持清醒，实现智能化管理。
 -   **规则引擎**：通过 Trigger 自动化功能，创建精细的“何时不睡眠”规则，适应各种场景。
 
-![Amphetamine 应用主界面与功能选项截图](https://relay-1.bijitongbu.site/p/263c179df8996f9f8d05c4f4909c7f36.jpg)
+![[笔记同步助手/images/280d9386204d0dab8d176aa7894c7817_MD5.jpg|Amphetamine 应用主界面与功能选项截图]]
 
 Amphetamine 应用主界面与功能选项截图
 

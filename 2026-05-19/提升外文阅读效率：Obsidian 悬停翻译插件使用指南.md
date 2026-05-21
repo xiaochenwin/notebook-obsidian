@@ -16,7 +16,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 ## 插件功能概览
 
-![插件搜索页面，显示 Most Two Tip Translator 插件信息](https://relay-1.bijitongbu.site/p/38e003ce1eaa1712caa018f607514cf3.jpg)
+![[笔记同步助手/images/cb694905978b1af3f7a5dad6c5230978_MD5.jpg|插件搜索页面，显示 Most Two Tip Translator 插件信息]]
 
 插件搜索页面，显示 Most Two Tip Translator 插件信息
 
@@ -32,7 +32,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 在 Obsidian 中打开“社区插件”窗口，搜索 _Most Two Tip Translator_ 并安装。激活后进入设置页面进行配置。
 
-![插件设置界面，展示语言与翻译引擎选项](https://relay-1.bijitongbu.site/p/6e03e2b5156c4e392bab9392e2b2de07.jpg)
+![[笔记同步助手/images/2dd75e705fe410c276322b417065884a_MD5.jpg|插件设置界面，展示语言与翻译引擎选项]]
 
 插件设置界面，展示语言与翻译引擎选项
 
@@ -42,7 +42,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 ## 实际使用体验
 
-![鼠标悬停在英文单词上，弹出中文翻译提示](https://relay-1.bijitongbu.site/p/a4b7edde921b54f820fb4a4e9d4b9fb2.jpg)
+![[笔记同步助手/images/c933f3ca6e30bf8a1f80960f08d6ce35_MD5.jpg|鼠标悬停在英文单词上，弹出中文翻译提示]]
 
 鼠标悬停在英文单词上，弹出中文翻译提示
 
@@ -52,7 +52,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 ## 生词管理与数据存储
 
-![右侧边栏展示自动生成的生词列表](https://relay-1.bijitongbu.site/p/692041285fe0ef3a5e7dadaf6847cf68.jpg)
+![[笔记同步助手/images/413e06bd917d0ad2c77138c03b167006_MD5.jpg|右侧边栏展示自动生成的生词列表]]
 
 右侧边栏展示自动生成的生词列表
 
@@ -62,7 +62,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 ## 使用建议与局限性
 
-![长篇混合中英文文档翻译后出现漏翻情况](https://relay-1.bijitongbu.site/p/7eda2f2745352b5fdcf991f038e9135a.jpg)
+![[笔记同步助手/images/4ef478091ba5fa6d6586d42af1164f6d_MD5.jpg|长篇混合中英文文档翻译后出现漏翻情况]]
 
 长篇混合中英文文档翻译后出现漏翻情况
 
@@ -72,7 +72,7 @@ id: 8de2e7fc-60c3-42ab-93b2-cd6d4755f1ef
 
 ## 结语
 
-![总结界面，展示插件整体使用流程](https://relay-1.bijitongbu.site/p/d35d951390ac888ec06cc7083656259a.jpg)
+![[笔记同步助手/images/3a39348c469cc4403a7c24e54c122c81_MD5.jpg|总结界面，展示插件整体使用流程]]
 
 总结界面，展示插件整体使用流程
 

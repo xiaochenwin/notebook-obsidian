@@ -20,7 +20,7 @@ id: fb23c59f-70de-4307-b02d-ae89fa3139c7
 
 这不是科幻。这是 ARIS (Auto Research in Sleep),一个让 AI 在你睡觉时做科研的开源系统。
 
-![](https://relay-1.bijitongbu.site/p/162ffb7bbff862a264539174fc28f55a.png)
+![[笔记同步助手/images/3ff6f055af77d42aa24cd3d839b71659_MD5.jpg]]
 
 ## 单模型自我博弈:一个美丽的陷阱
 
@@ -28,13 +28,13 @@ id: fb23c59f-70de-4307-b02d-ae89fa3139c7
 
 ARIS 的核心洞见是:两个是打破自我博弈盲区的最小配置。Claude Code 负责快速丝滑的执行,Codex (GPT-5.5 xhigh) 负责严谨深入的审稿。两者速度乘以严谨的互补特性,比单模型自我对话效果更好。
 
-![](https://relay-1.bijitongbu.site/p/f96930e5302d519283f0b60b39dff0bd.png)
+![[笔记同步助手/images/dcecf3feec1126fd7a41336c151643a6_MD5.jpg]]
 
 ## 拆解74个Skill:科研流水线的工程美学
 
 ARIS 不是一个平台,而是一套方法论。整个系统由 74 个可组合的 Skill 组成,每个 Skill 就是一个 Markdown 文件,任何 LLM 都能读懂。这意味着你可以把 ARIS 带到任何地方:Claude Code、Codex CLI、Cursor、Trae、GitHub Copilot CLI,甚至你自己的 Agent。
 
-![](https://relay-1.bijitongbu.site/p/aec61cc414966e3775d0d2caf06a266b.png)
+![[笔记同步助手/images/17438720afc6d07f27c9f467d66c6cd4_MD5.png]]
 
 系统架构分为四个核心 Workflow:
 
@@ -46,7 +46,7 @@ ARIS 不是一个平台,而是一套方法论。整个系统由 74 个可组合�
 
 **Workflow 3: Paper Writing** 从叙事报告到投稿就绪的 PDF。系统构建 claims-evidence 矩阵,自动生成图表和 LaTeX,然后进行两轮内容审查和一轮格式检查。
 
-![](https://relay-1.bijitongbu.site/p/5985b70de093db9f5066c92c087055cd.png)
+![[笔记同步助手/images/6bc94b7d87962d43ed036a45c9c61cfa_MD5.png]]
 
 ## 五层审计链:工程师的安全底线
 
@@ -100,7 +100,7 @@ ARIS 不是要让研究者失业,而是要把研究者从繁琐的执行工作�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hyh2h4kSnERrPicrALOAgicgUOjCeHu1yaDE5aqPBibHzEmlMS6vrbqj64D3Zm9UIGCs4cWpxpFxCzPyZ0Rn93ibRvpPMjia1aVpneByBSVxkwLU/0?wx_fmt=jpeg)
+![[笔记同步助手/images/f64b138378cebaeeb15a1f28884526f3_MD5.jpg|cover_image]]
 
 Original 奔跑的蜗牛人 技术野望社
 

@@ -14,7 +14,7 @@ id: 47560713-a6e4-4097-8ad2-c82c52ffb924
 
 发布时间：2026-05-10 00:00
 
-![](https://relay-1.bijitongbu.site/p/f0ed5bf94cac1a48e2fa3eb5870316a5.png)本篇是 HyperFrames 系列的第三篇，也可能不是最后一篇，这三篇全都是深度使用过程中不断尝试的总结，希望对同样使用 HyperFrames 的朋友有些用处，下面是前两篇内容，全都是干货，有需要的话可以收藏下。
+![[笔记同步助手/images/41efca0ce6ab939c01ca027733dadd5b_MD5.png]]本篇是 HyperFrames 系列的第三篇，也可能不是最后一篇，这三篇全都是深度使用过程中不断尝试的总结，希望对同样使用 HyperFrames 的朋友有些用处，下面是前两篇内容，全都是干货，有需要的话可以收藏下。
 
 [OpenCode + HyperFrames 实战：流水线式生成风格统一视频，让风格视频生产驶入快车道！](https://mp.weixin.qq.com/s?__biz=MzY4NDAwNDk0Ng==&mid=2247485071&idx=1&sn=38486cc20ad0b0a6ec335e675b359b44&scene=21#wechat_redirect)
 
@@ -259,15 +259,15 @@ python python/tts_synthesize.py "口播文案文本" --voice longanling_v3 --rat
 
 精选系列
 
-[![](https://relay-1.bijitongbu.site/p/236480483d76786a966e58138f584645.png)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4392528833040744449#wechat_redirect)
+![[笔记同步助手/images/a082dd14f29714253858962037c8a426_MD5.png|![]]](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4392528833040744449#wechat_redirect)
 
-[![](https://relay-1.bijitongbu.site/p/00aafa10fd7aef835ffd78f874027a80.png)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4406601385140682758#wechat_redirect)
+![[笔记同步助手/images/6796380a94c2d664001e9a79236747ce_MD5.png|![]]](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4406601385140682758#wechat_redirect)
 
-[![](https://relay-1.bijitongbu.site/p/a339a18e7677fd0a8a47d084f3b31664.png)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4488295114536353797#wechat_redirect)
+![[笔记同步助手/images/ce7928a6a9eb51df04601e5fa9c91e37_MD5.png|![]]](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzY4NDAwNDk0Ng==&action=getalbum&album_id=4488295114536353797#wechat_redirect)
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/xj7hcbUuziaxMQJwSRJj2UTSfiaXvXayvQZfP0byT1ibBs9H6pDnPwsjPU9DFxKh7nv6kHgicXhRt1pBxNO8cgwxOI8UIsjmiaQ6uA2M7jC2qD4c/0?wx_fmt=jpeg)
+![[笔记同步助手/images/3b8e01632497c4c9d192248b79b8c0a2_MD5.jpg|cover_image]]
 
 Original 小创 创见AI实验室
 
