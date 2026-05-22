@@ -14,7 +14,7 @@ id: 7b812db6-dd27-433c-893f-028a9026a56f
 
 发布时间：2026-05-21 08:00
 
-![](https://relay-1.bijitongbu.site/p/9ead23b790487aefec72c0dde463c8aa.png)
+![[笔记同步助手/images/d2cb759c9acea9134162ea2111c9f450_MD5.gif]]
 
 > 这是一段用 HeyGen 插件制作的 20 秒 Codex 介绍视频预览。完整 MP4 已上传到公众号视频素材库，发布前可以在后台把这里替换为正式视频。
 
@@ -70,7 +70,7 @@ HeyGen 负责把脚本变成一段成片。
 
 先用自然语言把视频需求讲清楚，就能得到一个视频初版。
 
-![](https://relay-1.bijitongbu.site/p/fc0f3275a9df64c8f28fcde486485055.png)
+![[笔记同步助手/images/254362fb3fb23e98f1769e7f0185b550_MD5.png]]
 
 ## 它能实现哪些效果
 
@@ -344,11 +344,11 @@ _以上内容仅代表个人经验分享。工具和平台信息可能随时更�
 
 ## 一张图总结
 
-![](https://relay-1.bijitongbu.site/p/c80fda62a8ba9af1a49ae9ce5f255f10.png)
+![[笔记同步助手/images/9067d2cba4bc4860a8c1305cead33383_MD5.png]]
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/99ZVtoNDSBszDXVZymL6ujXFzO2nuiaHhhuQJib0Vlxom1miawSiavCp9eKiclpcKm6PibDdGHxwnKGbfHHaHT9U4M6ibLt81q37xMGmCmSLmfq6gg/0?wx_fmt=jpeg)
+![[笔记同步助手/images/36c570ff896c130423f52ac7851accc4_MD5.jpg|cover_image]]
 
 大汤圆-ai
 

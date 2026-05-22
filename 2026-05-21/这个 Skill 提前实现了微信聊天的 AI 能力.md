@@ -34,7 +34,7 @@ id: afaf94e8-9eb7-41b2-837d-f04d583b754f
 
 跳到「选择聊天」页面，点「转发到其他应用」，选「元宝」。
 
-![](https://relay-1.bijitongbu.site/p/50801c931f96572f286937da921cd9a8.png)
+![[笔记同步助手/images/7b0ae473ac33450c8a6563f46918cdaa_MD5.png]]
 
 元宝就会自动总结。
 
@@ -54,13 +54,13 @@ id: afaf94e8-9eb7-41b2-837d-f04d583b754f
 
 一个是我们社群原来一周能聊挺多干货的 ，还有一个是这微信聊天记录现在竟然能用 skill 做成这样的报告。
 
-![](https://relay-1.bijitongbu.site/p/98b4ccac0cf7c6478327731e4c342c3e.png)
+![[笔记同步助手/images/40b2cabbbfee8cb4b960c718a6e528fd_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/0da317f1d47885bf40c3611d06794ac0.png)
+![[笔记同步助手/images/6584dbd8e47dc5439c834e6d26a9c156_MD5.png]]
 
 然后我自己折腾了一会，把这两个 skill 装好后，又拿自己的社群跑了上个月的聊天记录，效果好到出乎意料，我让它突破极限，总结了最近一个月的社群聊天记录。图有点长，可以快速划过。
 
-![](https://relay-1.bijitongbu.site/p/b7831e16e9506b0a301e73231e1f40de.png)
+![[笔记同步助手/images/a76ea4ab0dbee09ff15f6d4a4a188baf_MD5.png]]
 
 输出形态有报头、有主标题、有 6-8 段时间故事线（每段带真实头像）、有今日高光人物卡、有可以直接抄作业的 SOP 和 Q&A，最后一句当天最有共鸣的话压尾。
 
@@ -84,7 +84,7 @@ id: afaf94e8-9eb7-41b2-837d-f04d583b754f
 
 **group-daily-newspaper**做人民日报式的 A3 报纸版，2 版、4 版、6 版按当天聊天量自动决定，可以直接打印出来。
 
-![](https://relay-1.bijitongbu.site/p/674daeb0173b7f8528d5c3015cca1bf2.png)
+![[笔记同步助手/images/f482512faa025935b38b99b63535f608_MD5.png]]
 
 使用步骤，把下面内容发给你的 Agent
 
@@ -139,9 +139,9 @@ Agent 会自动跑完后续流程：拉聊天记录、把语音也转写成文�
 
 它能看到你自己看不到的模式。我试过把和一个老友半年的对话拉出来跑一遍，结论是「你在这段关系里持续输出价值，但很少表达需求」。
 
-![](https://relay-1.bijitongbu.site/p/97839880d6699d5f135be41fc7d3c056.png)
+![[笔记同步助手/images/69cd85ec568e8269d207217a49aca726_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/304f9e3df0507d559ecaae0645c10df3.png)
+![[笔记同步助手/images/909273311a4a4a001edce6a67a1c19fc_MD5.png]]
 
 ## 4\. 知识沉淀与回顾
 
@@ -149,7 +149,7 @@ Agent 会自动跑完后续流程：拉聊天记录、把语音也转写成文�
 
 跑一份周报或月报出来，挑真正有价值的讨论存进自己的笔记系统。过段时间回看，你会发现自己一年下来其实是被这些群养大的。
 
-![](https://relay-1.bijitongbu.site/p/aac5382a76dc2cc138dd18a77ac1f33d.png)
+![[笔记同步助手/images/cdc02c09bec10ec6ea6511bec81fa781_MD5.png]]
 
 ## 5\. 关键时刻纪念
 
@@ -157,7 +157,7 @@ Agent 会自动跑完后续流程：拉聊天记录、把语音也转写成文�
 
 下面是我印出来就是一份日报的感觉，4 版面，有头条有副刊，瞬间让聊天记录变得有收藏价值。
 
-![](https://relay-1.bijitongbu.site/p/2fead6844e3424f2a896ef9e5c4deecf.png)
+![[笔记同步助手/images/9c448485aea1ac7d9f4e60343c835f82_MD5.png]]
 
 上面这几种形式我还在做实验，如果感兴趣可以在后台回复：聊天记录，我尽快上架后发大家体验。
 
@@ -165,7 +165,7 @@ Agent 会自动跑完后续流程：拉聊天记录、把语音也转写成文�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/CFe2b8yvCozXyiaC1oRMvuic9RsuYuqYm3KKC6npvYSPvPvGzz9ibsHBWianVNeib8RVZh9FN8gUDn67xeFfgNWcTiarGEOMqSzLlfCkTnVr9mXng/0?wx_fmt=jpeg)
+![[笔记同步助手/images/8579361fc196a8c4450c928fe82cc4f5_MD5.jpg|cover_image]]
 
 原创 空格丶 空格的键盘
 

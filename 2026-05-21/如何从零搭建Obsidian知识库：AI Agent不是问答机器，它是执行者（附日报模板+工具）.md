@@ -30,7 +30,7 @@ Hello啊朋友们，我是Simonlin，用通俗易懂的语言，手把手教你�
 
   
 
-![](https://relay-1.bijitongbu.site/p/8a549ae3e95079529f6edf0114ffcaa4.png)
+![[笔记同步助手/images/02a97fb6d56fd8b413e5e21f8cb6ca67_MD5.png]]
 
 你问AI"什么是Obsidian"，它给你一段解释。这是问答。
 
@@ -48,7 +48,7 @@ Hello啊朋友们，我是Simonlin，用通俗易懂的语言，手把手教你�
 
   
 
-![](https://relay-1.bijitongbu.site/p/b8c8d104a1381a2d86c6043842559835.png)
+![[笔记同步助手/images/078add87f43b2765cd4e69f08b67b945_MD5.jpg]]
 
 核心就一件事：给AI明确的指令，让它去知识库里找东西，然后按你的规则做事。
 
@@ -66,7 +66,7 @@ Hello啊朋友们，我是Simonlin，用通俗易懂的语言，手把手教你�
 
   
 
-![](https://relay-1.bijitongbu.site/p/6d422cc8b3e5b63226c32865adb2ba3c.png)
+![[笔记同步助手/images/534bc83aae3d83c9b85d98a3a039059e_MD5.png]]
 
 我每天早上的工作流是这样的。
 
@@ -88,7 +88,7 @@ Hello啊朋友们，我是Simonlin，用通俗易懂的语言，手把手教你�
 
   
 
-![](https://relay-1.bijitongbu.site/p/f21d45409d6ef124a28bf7ddc9a9e851.png)
+![[笔记同步助手/images/8bb80932b6b96a4181e7889773a87e11_MD5.png]]
 
 这件事以前做不到。不是因为AI不够聪明，是因为AI读不了你的知识库。
 
@@ -108,7 +108,7 @@ Agent是执行者——你给它任务，它去知识库找规则，按规则执
 
   
 
-![](https://relay-1.bijitongbu.site/p/f2b44f22579a4300245988e0794655fc.png)
+![[笔记同步助手/images/2085343ed9310cac340c7e749df10367_MD5.jpg]]
 
 有人可能会问：AI不是有memory吗？它自己不会记住我的偏好吗？
 
@@ -154,7 +154,7 @@ memory让AI"懂你"，知识库让AI"按你的规则干活"。两者不是替代
 
 一张图总结文章内容：
 
-![](https://relay-1.bijitongbu.site/p/7c5954787ac3019c9762ae56e301c78c.png)
+![[笔记同步助手/images/5509bf7c8557c325694cdde19e53dba8_MD5.png]]
 
   
 
@@ -172,7 +172,7 @@ memory让AI"懂你"，知识库让AI"按你的规则干活"。两者不是替代
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/gBevQ6puE7AQ2cWeEN3QveNqOaalwPnhXpeGKHTwj18xj2BOsFIzXtYJxBkhhjwbEMS5xtNTlyGyCIxkCfNhkkSlubRcwD4WIFWOqDODTg0/0?wx_fmt=jpeg)
+![[笔记同步助手/images/e780b49eddd35da850cb7f9071794804_MD5.jpg|cover_image]]
 
 Original Simonlin Simonlin的精神世界
 

@@ -14,7 +14,7 @@ id: d683b597-46c2-40b9-8c76-d1bb6b906fdf
 
 发布时间：2026-05-20 14:00
 
-![](https://relay-1.bijitongbu.site/p/18a0edd6ab1bb2b44f3a1bfb7fb853a4.png)
+![[笔记同步助手/images/0399eea7ecf02a70dbac1c22079f7d16_MD5.png]]
 
 ---
 
@@ -68,7 +68,7 @@ Markdown 是纯文本，几十年后大概率也还能打开。
 
 在WorkBuddy 的技能列表已经搜索 `obsidian`，这个 Skill 是围绕 Obsidian 知识库管理和自动化设计的。
 
-![](https://relay-1.bijitongbu.site/p/d3cfd7ab6874e25812472c3ad3b6a548.png)
+![[笔记同步助手/images/022d0243643b659eafa8298f771ad44c_MD5.jpg]]
 
 CodeBuddy 文档里对 Obsidian Skill 的定位也很明确：
 
@@ -116,7 +116,7 @@ CodeBuddy 管动作。
 
 我建议先用 5 个目录：
 
-![](https://relay-1.bijitongbu.site/p/499564ddeb15281d258e15b7ba425994.png)
+![[笔记同步助手/images/a720a76c104f9ad133061d0fbdc8e5be_MD5.png]]
 
 ```
 00-Inbox 01-Projects 02-Areas 03-Resources 04-Archive
@@ -154,7 +154,7 @@ CodeBuddy 管动作。
 
 而是让它做 5 类重复动作：
 
-![](https://relay-1.bijitongbu.site/p/482643a4d2c08051a44e7d7a221bb9f1.png)
+![[笔记同步助手/images/ce97aa7b443d822e95819538a6bf8838_MD5.png]]
 
 第一类：收集。
 
@@ -310,11 +310,11 @@ _以上内容仅代表个人经验分享。工具和平台信息可能随时更�
 
 ## 一张图总结
 
-![](https://relay-1.bijitongbu.site/p/174f744ced65038a99ed417a8eb81c09.png)
+![[笔记同步助手/images/4912b2359016f6b9499437c5f2028657_MD5.png]]
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/99ZVtoNDSBu7XpsCnQ0P3TTYmXYyRJszmX2gEibCGqgWH6YTnXkWhZmiauCLRFVyNdLgljGDyAKsSNiblwszRmCBpTUSa0BgUUrZpFcQnI2vy4/0?wx_fmt=jpeg)
+![[笔记同步助手/images/930561f9acadbe3fb92fabda8c1757e9_MD5.jpg|cover_image]]
 
 大汤圆-ai
 

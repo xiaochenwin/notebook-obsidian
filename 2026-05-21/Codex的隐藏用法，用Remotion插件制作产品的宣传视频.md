@@ -20,7 +20,7 @@ EXPLORE​阅读需要5分钟
 
 <table style="border-collapse: collapse"><tbody><tr><td style="text-align: left; border: 1px solid #ddd; padding: 6px 10px"><span style="font-size:12px; color: rgb(199, 138, 93)"><span>AI 排版助手</span></span></td><td style="text-align: center; border: 1px solid #ddd; padding: 6px 10px"><div style="text-align:center; color: rgb(0, 0, 0)"><span style="font-size:12px; color: rgb(139, 94, 60); text-align:center"><span>用中文沟通，构思设计</span></span></div></td><td style="text-align: right; border: 1px solid #ddd; padding: 6px 10px"><span style="font-size:12px; color: rgb(199, 138, 93)"><span>继续探索 →</span></span></td></tr></tbody></table>
 
-![](https://relay-1.bijitongbu.site/p/63bed152e759f5630999560bf19e7f8f.png)
+![[笔记同步助手/images/7721fad60543e03efb861e5d21f73e02_MD5.png]]
 
 前段时间，我尝试了一个新玩法，其实之前在文章就提过一次，在Codex 里有一个叫 Remotion 的插件，非常适合做产品的宣传视频。
 
@@ -46,13 +46,13 @@ Remotion框架本质是用代码，实现了视频的各种动画和特效，有
 
 其实非常简单，首先在插件里找到下面这个 Remotion 插件，点击安装就行了。
 
-![](https://relay-1.bijitongbu.site/p/58d4a12b70580296ef66864717a0e742.png)
+![[笔记同步助手/images/773b1e0a871b25826bbdbb77174096df_MD5.png]]
 
 安装完成后，直接口喷需求，在对话框里 @这个插件，然后说出我们的需求，接下来Codex就会给我们干活了，我们可以要求它打开浏览器的预览窗口，先别渲染视频，我们在这个预览窗口，能实时看到效果，有问题可以直接让它继续改，没问题后，再让它导出，自己也可以在预览页面的右上角点击导出。
 
-![](https://relay-1.bijitongbu.site/p/8d3629d4e7d4b1f060d258c602445f35.png)
+![[笔记同步助手/images/db2965da45334599f850252229c21b0e_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/9fe38b6df6604eb79c86ecffb9133cf6.png)
+![[笔记同步助手/images/ddbeabb7cf9ecddd0c44c4c9cd1f9386_MD5.png]]
 
 整个制作过程其实并不难，全程用中文跟 Codex 沟通就能搞定。但难点在于，我们需要想清楚要做什么样的特效、怎么设计，这才是最考验人的地方。
 
@@ -60,7 +60,7 @@ Remotion框架本质是用代码，实现了视频的各种动画和特效，有
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/vCD62xIXia2JBoBovyLr7blZO06WWwz29QxCfP2a0mSunW754Bsv36YIkspqCIWGZgFb9QibQ7aUHkJ64ibqXa0aJJE3ibJvAQtLicdGvqwsiakhg/0?wx_fmt=jpeg)
+![[笔记同步助手/images/8662533cdc23e74088f52a1bea933627_MD5.jpg|cover_image]]
 
 Original 李墨玩 墨玩AI
 

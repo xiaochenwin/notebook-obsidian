@@ -30,15 +30,15 @@ Codex 如何使用
 
 打开电脑 Codex，会出现如下界面：
 
-![](https://relay-1.bijitongbu.site/p/2f30f83e8dc899edca581ca295e8b576.png)
+![[笔记同步助手/images/7cb0321cc7f1d9ee7adce69f526f703a_MD5.png]]
 
 ## 点击 Get Started，设置 Codex 移动版，跟着界面提示一步步往下走：
 
-![](https://relay-1.bijitongbu.site/p/3b7fa32cc52e295eba3b2cabe718d99a.png)
+![[笔记同步助手/images/fc19f63c2a26c2b5dcee188dad24b6f7_MD5.png]]
 
 ## 设置成功后，就可以在手机端看到连接成功的标志了。
 
-![](https://relay-1.bijitongbu.site/p/32fa6a1ef8d0fe9f5659e6cd62011ec8.png)
+![[笔记同步助手/images/d244a487cc457f0e9e32af0ad77951b7_MD5.jpg]]
 
 ## 本质相同：手机只是“遥控器”
 
@@ -190,7 +190,7 @@ Claude Code 的远程控制 2 月份刚上线那会儿还挺糙的，网上能�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GibojqibaGeT1zInOWOwRXibpNp3wct7cU4nvgMvabkkYhsAaaO4eeVd8fP9CW8KPm2kicv2ZSV7fjNAZZR7WhHxqtialsicG664eNI5toMxjnhYM/0?wx_fmt=jpeg)
+![[笔记同步助手/images/93f7f76a4e17fbef4a0689020c71ba7d_MD5.jpg|cover_image]]
 
 原创 Dylan 碳基 Agent
 

@@ -39,7 +39,7 @@ Obsidian 是本地 Markdown 笔记工具，数据全在本地，支持各种插�
 
 两个打通之后，在 Obsidian 里直接跟 Claude 对话，让它帮你改笔记、整理文档、生成内容，甚至接 Codex。一个窗口搞定，不用反复切终端。
 
-![](https://relay-1.bijitongbu.site/p/f2971c5a52abd5920223671d6db14713.png)
+![[笔记同步助手/images/b2208c7615d7962e2dd22d0ac159e315_MD5.png]]
 
 ## 第一步：安装 Obsidian，创建知识库
 
@@ -47,11 +47,11 @@ Obsidian 是本地 Markdown 笔记工具，数据全在本地，支持各种插�
 
 macOS 用户点 `Download for macOS`，下完拖进应用程序文件夹就行。
 
-![](https://relay-1.bijitongbu.site/p/e9b9318dec494009105c2bcba5a18cce.png)
+![[笔记同步助手/images/ff6130a7550df6941d2bdb63f65836a1_MD5.png]]
 
 首次打开会有欢迎界面，点「创建新库」，选个存放位置。
 
-![](https://relay-1.bijitongbu.site/p/159910d02b3807b57827487e136d52e4.png)
+![[笔记同步助手/images/af3a2bc92cc0b84f18b90ec48cd1a690_MD5.png]]
 
 已经有 Vault 的直接跳过。
 
@@ -61,11 +61,11 @@ macOS 用户点 `Download for macOS`，下完拖进应用程序文件夹就行�
 
 插件地址：https://github.com/YishenTu/claudian
 
-![](https://relay-1.bijitongbu.site/p/308547ad3a38fff54125764c31b15b50.png)
+![[笔记同步助手/images/89bcb2e669c408087e8c1931473983d1_MD5.png]]
 
 这个插件还没上架 Obsidian 官方插件市场，在市场里搜不到。需要用一个叫 BRAT 的插件来中转安装。
 
-![](https://relay-1.bijitongbu.site/p/b6c8fea542362dde547bb9ae8546cea2.png)
+![[笔记同步助手/images/5a90340d4ce0d7b769521c4df2427acd_MD5.png]]
 
 流程不复杂，往下看。
 
@@ -75,7 +75,7 @@ Obsidian 设置 → 左侧菜单往下滑 → 「第三方插件」→ 点进去
 
 顶部有个「安全模式」，默认开着。开着的时候不允许装任何第三方插件，关掉它。
 
-![](https://relay-1.bijitongbu.site/p/7407a14bdfa388134b41b612d612e37e.png)
+![[笔记同步助手/images/87a57481a110916ec4c68b36fede266e_MD5.png]]
 
 关掉之后，下面的「社区插件市场」就可用了，点「浏览」进去。
 
@@ -83,7 +83,7 @@ Obsidian 设置 → 左侧菜单往下滑 → 「第三方插件」→ 点进去
 
 插件市场搜 brat，第一个就是。
 
-![](https://relay-1.bijitongbu.site/p/46cdda495930cc8d898231f884699a1d.png)
+![[笔记同步助手/images/cafac45f59f276f251ebb52ae5b0abf2_MD5.png]]
 
 点进去 → 安装。
 
@@ -91,15 +91,15 @@ Obsidian 设置 → 左侧菜单往下滑 → 「第三方插件」→ 点进去
 
 > 如果显示"无法安装"，多试几次就行，通常是网络问题。
 
-![](https://relay-1.bijitongbu.site/p/aae83e6c2263e6862b2937ad8f409302.png)
+![[笔记同步助手/images/0129969ce38fcb57d7e73d2febd4a42e_MD5.png]]
 
 装完点「启用」，然后重启 Obsidian。
 
-![](https://relay-1.bijitongbu.site/p/4a5ec181489de317927d5307d5a72a4a.png)
+![[笔记同步助手/images/6bb87fc97762c7af5aa278cfed694959_MD5.png]]
 
 ### 2.3 用 BRAT 安装 Claudian
 
-重启后回到设置页面，左侧菜单滑到最底下，找到 BRAT 点进去。![](https://relay-1.bijitongbu.site/p/149f8e92d2d86f861e85070d5cfa202f.png)
+重启后回到设置页面，左侧菜单滑到最底下，找到 BRAT 点进去。![[笔记同步助手/images/343d32ef3b51c8f46beb45a0ed8aa0c8_MD5.png]]
 
 在 Repository 框里输入 Claudian 的地址：
 
@@ -107,7 +107,7 @@ Obsidian 设置 → 左侧菜单往下滑 → 「第三方插件」→ 点进去
 https://github.com/YishenTu/claudian
 ```
 
-![](https://relay-1.bijitongbu.site/p/517197a8f3588d8231c3e00a42166297.png)
+![[笔记同步助手/images/e8db340467e36d9302b8011a4569cc5c_MD5.png]]
 
 点确认，等它装好。
 
@@ -115,7 +115,7 @@ https://github.com/YishenTu/claudian
 
 装完后，Obsidian 左边的侧边栏应该会多出一个机器人图标，那就是 Claudian 的入口。
 
-![](https://relay-1.bijitongbu.site/p/d8c3ae79fc3e3dbbe67206c0e80dde36.png)
+![[笔记同步助手/images/39bfbbb0be205a91c0d70196acaf1669_MD5.png]]
 
 没看到的话，去设置里确认一下 Claudian 有没有启用。
 
@@ -136,11 +136,11 @@ where claude
 
 把结果填进去：
 
-![](https://relay-1.bijitongbu.site/p/dc6747c5fb142657194bc005fccb0a80.png)
+![[笔记同步助手/images/abd152802e7cd88d0d8ba06618ade8bd_MD5.png]]
 
 > 页面默认英文，可以改语言：
 
-![](https://relay-1.bijitongbu.site/p/5e61740ec6a4c7c19625f19ef988e600.png)
+![[笔记同步助手/images/05fb539682502c11a8ef933127fe8dc4_MD5.png]]
 
 ## 第四步：把 Codex 也配上
 
@@ -155,11 +155,11 @@ where codex
 
 填到 Claudian 的 Codex 配置里：
 
-![](https://relay-1.bijitongbu.site/p/c50caa62af076b0e7ca0e48694fc0b4b.png)
+![[笔记同步助手/images/fc339f5d52c3b1135519bdb2ea1d4191_MD5.png]]
 
 重启 Obsidian，Claude 和 Codex 的模型就都出来了：
 
-![](https://relay-1.bijitongbu.site/p/1c40b975f4c753ba8be01edfff2a7e8e.png)
+![[笔记同步助手/images/b7367fb1645c40e8c008dde6e2f52723_MD5.png]]
 
 > 模型没出来的话，检查两个地方：
 > 
@@ -178,7 +178,7 @@ where codex
 
 > 你能连接上 Claude Code 嘛？
 
-![](https://relay-1.bijitongbu.site/p/867433589c9bbe0b5c01695b11331e85.png)
+![[笔记同步助手/images/b2208c7615d7962e2dd22d0ac159e315_MD5.png]]
 
 能正常回复就说明成功了。它会自动检测本地的 Claude 安装路径，不需要额外配置。
 
@@ -209,7 +209,7 @@ Obsidian 本身是 Markdown，Claude 输出的内容格式直接兼容，不用�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/WaQDe451kxn6hzv8oiaMaKoELEmholzPkKUGGX6GnjE0qic3voruZ8hqTbtVSxzX8boGnOWj2dFicibR8DzpaSv1sL5icy3G9dRO0NiaWKUj2Pia2s/0?wx_fmt=jpeg)
+![[笔记同步助手/images/d5596cf29d14141f5d69399b463f37e6_MD5.jpg|cover_image]]
 
 Original 赛博李同学AI手记 赛博李同学AI手记
 

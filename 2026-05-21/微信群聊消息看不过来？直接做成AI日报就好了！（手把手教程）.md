@@ -34,7 +34,7 @@ https://mp.weixin.qq.com/s/kZkWgw8e38PjkiXWXSLk0Q
 
 直接看效果：
 
-![](https://relay-1.bijitongbu.site/p/961b093ec71163ffc35f3c02970fdb20.png)
+![[笔记同步助手/images/95d0102cf571a23d0b34079147be8de0_MD5.png]]
 
 怎么做？
 
@@ -66,13 +66,13 @@ https://mp.weixin.qq.com/s/kZkWgw8e38PjkiXWXSLk0Q
 
 聊天记录导出一共要用到两个工具，如果大家觉得一个个下载太麻烦，我已经打包放到网盘里，划到文章最下方，获取下载方式。
 
-![](https://relay-1.bijitongbu.site/p/5517ab62dd818b86bddda878d68b1235.png)
+![[笔记同步助手/images/c4186fd779062c04db561c54cad39c26_MD5.png]]
 
 项目地址：https://github.com/ycccccccy/echotrace
 
 大家觉得好用的话，可以在右上角，给他们加星。
 
-![](https://relay-1.bijitongbu.site/p/9daa8c6a4066828ec408cd3768efd5a7.png)
+![[笔记同步助手/images/5aa07eb1fb4950c620d51e4121207760_MD5.png]]
 
 这款软件，目前只有Windows操作系统的版本，Mac系统暂不支持。如果大家发现了有Mac系统能用上的工具，欢迎在评论区留言分享～
 
@@ -86,11 +86,11 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 下好之后，你会得到这样一个压缩包文件：
 
-![](https://relay-1.bijitongbu.site/p/898efacc04343e7ff2e60fd69c062422.png)
+![[笔记同步助手/images/b585f40c95623ba627b30eb0909c5e80_MD5.png]]
 
 请注意，压缩包下在哪里都不重要，但是解压的时候一定得注意，解压的目录名称不能包含中文。
 
-![](https://relay-1.bijitongbu.site/p/1c43423abb1e91c8ee9e430b7ca6b151.png)
+![[笔记同步助手/images/947b17c032d568b3fa9356441262e6cd_MD5.png]]
 
 仅供参考
 
@@ -98,17 +98,17 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 或者是被杀毒软件误杀了。
 
-![](https://relay-1.bijitongbu.site/p/874a9b323da53b77a02dfdbd9515f03f.png)
+![[笔记同步助手/images/5498d902fb28128067668899400de566_MD5.png]]
 
 进入Windows安全中心，看看有没有被系统误判为病毒。
 
-![](https://relay-1.bijitongbu.site/p/7f64d078e483cb3d760d9b65214a717e.png)
+![[笔记同步助手/images/3119cc75b6093e5bc50e7c41efd4cf00_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/d3b9f3b4f3502ee713b807261ee12baa.png)
+![[笔记同步助手/images/7337a377ad7f4129eb64066b5f0a0850_MD5.png]]
 
 如有，直接恢复就好了。
 
-![](https://relay-1.bijitongbu.site/p/5fd7b8a41e3304b32e5fbcc8cfc05522.png)
+![[笔记同步助手/images/a16c1ba6d15e53e8359e4ca57ec6d875_MD5.png]]
 
 同时，我们还要再下载一个工具，获取我们的聊天数据密钥，方便进行解密。
 
@@ -116,7 +116,7 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 同样解压到EchoTrace所在的同一个文件夹里。
 
-![](https://relay-1.bijitongbu.site/p/0f400923f3041b653f7314d4ff030f5c.png)
+![[笔记同步助手/images/9e066e23ab9e296cc74cc0e1387bd38b_MD5.png]]
 
   
 
@@ -130,49 +130,49 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 ​
 
-![](https://relay-1.bijitongbu.site/p/c387bd5a92f2dc9f1c50a33601b43385.png)
+![[笔记同步助手/images/3fe3f2b5bc28828ea0c82089e02b03b9_MD5.png]]
 
 找到里面的exe文件，双击打开：
 
-![](https://relay-1.bijitongbu.site/p/eb36345725d3b4b5e0c1d8bac9ead0d9.png)
+![[笔记同步助手/images/c1a01c82fdc16bbdbef9522ece440529_MD5.png]]
 
 先设置一下微信文件的目录，如果没设置，它会自动检测。
 
-![](https://relay-1.bijitongbu.site/p/e9e25d2e85c7fd6c30742650650d7dd0.png)
+![[笔记同步助手/images/bee08d819f3f00db22ff525d327dc4f7_MD5.png]]
 
 点击“开始提取密钥”——“关闭并继续”。
 
-![](https://relay-1.bijitongbu.site/p/d2a1455a20f1538acb050874ff507532.png)
+![[笔记同步助手/images/73783773fcb92f2cbf33cd14c794bd6e_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/889bf6656eca875a1a10c1c729be6d2c.png)
+![[笔记同步助手/images/55d64becdb024a675cf2e17796fb37ed_MD5.png]]
 
 重新登录一下微信，密钥提取完毕。
 
 点击“复制”。
 
-![](https://relay-1.bijitongbu.site/p/881ebc3bfcd7b46a3938c1e14ec07e28.png)
+![[笔记同步助手/images/2c52dff41f7b3277b853ca159f683386_MD5.png]]
 
 然后打开EchoTrace的文件夹。
 
-![](https://relay-1.bijitongbu.site/p/8eedca0e531ae95b3b0d6a95ec33dc26.png)
+![[笔记同步助手/images/72b6e2b1faf36f36e6f6c821351389b8_MD5.png]]
 
 找到exe文件，双击打开。
 
-![](https://relay-1.bijitongbu.site/p/ce015242385122db820fe3d4cebdcd66.png)
+![[笔记同步助手/images/e4fab3d733122fe72fa123bc24a58b0f_MD5.png]]
 
 进入到数据库配置的界面。
 
 点击“测试连接”，看看能不能连通聊天记录的数据库。
 
-![](https://relay-1.bijitongbu.site/p/79c0cbf9fbd2ec0cccde79d16c9cc892.png)
+![[笔记同步助手/images/415437e685bdd36d4b24ad6655f8595a_MD5.png]]
 
 出现这个提示，就说明可以继续下一步操作。
 
-![](https://relay-1.bijitongbu.site/p/3544622b511a80f82a5484f59c195f15.png)
+![[笔记同步助手/images/fc049d2bc8a4c3dffc81ebf93203c75c_MD5.png]]
 
 点击“保存配置”。
 
-![](https://relay-1.bijitongbu.site/p/b7fb6d300b9ad3e6f78cca0eba97fadc.png)
+![[笔记同步助手/images/3763169d4e4c01c20a55819576ee6748_MD5.png]]
 
 获取到数据库文件不代表它马上就能用，得先进行解密。
 
@@ -180,27 +180,27 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 点击“批量解密”。
 
-![](https://relay-1.bijitongbu.site/p/fb068f9879bca0cec56034961d19859b.png)
+![[笔记同步助手/images/a1a7a666a3f8a5b82106ee4f2c1801d6_MD5.png]]
 
 需要注意的是，我们这边解密的是数据库文件，如果要对图片这种媒体文件进行处理，得另外获取图片密钥，否则就会显示这个：
 
-![](https://relay-1.bijitongbu.site/p/4a498f5d7e96f7e0bb00a9f72d71a6ab.png)
+![[笔记同步助手/images/8e9743748182776dcc03a0f9e7bb90d6_MD5.png]]
 
 办法就是到密钥获取工具，点“获取图片密钥”。
 
-![](https://relay-1.bijitongbu.site/p/5a551f989652cea0e5d4b72433420f52.png)
+![[笔记同步助手/images/985483d764f30a3ff88ba76290dce832_MD5.png]]
 
 接下来，就是最最最激动人心的时刻了，我们要导出群聊数据了！
 
 一共有5个步骤，大家按照这个图片里标注的，一步步来。
 
-![](https://relay-1.bijitongbu.site/p/8ed57e465689a5728c143e6085cdfc98.png)
+![[笔记同步助手/images/147913b8795c3f2239a22e7f7768c83c_MD5.png]]
 
 第一步：选择聊天记录文件的存储位置，我是专门建了个文件夹，把软件和数据都放在了里面，方便查找。
 
 第二步：选择要导出记录的群聊，可以是单个群聊，也可以批量导出。
 
-![](https://relay-1.bijitongbu.site/p/d8bb4cf264856a203cc7c86f33868baf.png)
+![[笔记同步助手/images/edf575f1f0e82b6a97c3107ee95e4219_MD5.png]]
 
 第三步：选择时间范围，时间范围越大，聊天记录文件越大，到后面日报制作的时候花的时间就越长。
 
@@ -208,17 +208,17 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 如果要导出媒体文件，得先获取图片密钥，并进行解密，否则会失败。
 
-![](https://relay-1.bijitongbu.site/p/35ca9d786495356d5cd6aca48df39372.png)
+![[笔记同步助手/images/057149bbfff457c7c07278058e0b9bb6_MD5.png]]
 
 也可以选择是否要导出头像，指的是微信聊天里，聊天发送者的头像。
 
-![](https://relay-1.bijitongbu.site/p/ff7170dc191a7f51e834611fd9f2f4c4.png)
+![[笔记同步助手/images/7e045e8585e546f988db5a88ca79d20f_MD5.png]]
 
 做好这些准备之后，就点击“开始处理”。
 
-![](https://relay-1.bijitongbu.site/p/70e878bff9ae58db2d3f3f9448ac9b52.png)
+![[笔记同步助手/images/d3e383f2b7f783ecbb19cdb665a62a35_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/60eadb91bc301541fb2247981adf8d5f.png)
+![[笔记同步助手/images/0e33409a9c3190768851e7683c7b2313_MD5.png]]
 
 等待一段时间。
 
@@ -226,11 +226,11 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 先别着急退出去，如果你忘了你聊天记录存放的路径，点“浏览文件”直接跳转，是最方便的。
 
-![](https://relay-1.bijitongbu.site/p/2bd50b9dd313ec285963a8698167a3f0.png)
+![[笔记同步助手/images/be529354c8b58c036d6ae2c09df36dd4_MD5.png]]
 
 现在，最重要的聊天记录文件，我们已经拿到了。
 
-![](https://relay-1.bijitongbu.site/p/c047377e150c54d498cd4e6181269f8f.png)
+![[笔记同步助手/images/d25170b106609cc0bfd2a31c90566ecf_MD5.png]]
 
   
 
@@ -240,7 +240,7 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 接下来，就是找个AI来制作日报了。
 
-![](https://relay-1.bijitongbu.site/p/c9882f50eb69f56ed4c6c4daf86f605e.png)
+![[笔记同步助手/images/e714d967e72156a2dde027981f91f922_MD5.png]]
 
 到了2026年，各家主流模型在上下文长度方面有了不小的突破，我让AI帮忙列出了一份表格，大家可以对照一下。
 
@@ -248,65 +248,65 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 这边同样有一份表格， 供大家参考：
 
-![](https://relay-1.bijitongbu.site/p/b107acadfad1def75437f0ed98049547.png)
+![[笔记同步助手/images/a43fef5a3369d34ee794568e038725ff_MD5.png]]
 
 我这里选择的依旧是老朋友——Gemini，最新的模型为Gemini 3 Pro，不仅承袭了一贯的长上下文，编程能力也非常的强大，属于顶尖队列。（其他AI也行，不一定要Gemini的，只要是长上下文，性能好的模型都可以）
 
 如果你有API的，直接使用API就好，如果没有API，小黄鱼（二手交易软件）搜索“Gemini会员”，可以用很低的价格购买一年的Pro会员，原价买的话要199美元，相当于1397人民币。
 
-![](https://relay-1.bijitongbu.site/p/dd5a6de8a051f6f26af6479d45dade8d.png)
+![[笔记同步助手/images/3429cf5558d90665fbf3742259a0af4e_MD5.jpg]]
 
 假设大家已经有了Gemini会员。
 
 先上传Json格式的聊天记录文件。
 
-![](https://relay-1.bijitongbu.site/p/806ae9273db6cb6ded675270e649b91e.png)
+![[笔记同步助手/images/584bf99800e6d5002ec1ac48dc1c87e5_MD5.png]]
 
 提示词，我会将它和所有工具一起打包发给你，划到文章最底下就能看到了。
 
 复制粘贴提示词，点“提交”。
 
-![](https://relay-1.bijitongbu.site/p/fc1f30d1911e7bf6c5b0e3656e93738e.png)
+![[笔记同步助手/images/4bac7b3dab177def64a08193916cf87f_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/32792b9ab6dd19bbb265a3a042609150.png)
+![[笔记同步助手/images/4372de9e93062455d31e30f63e30e092_MD5.png]]
 
 将AI生成的代码复制一下。
 
-![](https://relay-1.bijitongbu.site/p/ec1c342e9a5045115f5a44e471268c31.png)
+![[笔记同步助手/images/b1f34b69439a44bab6813ca0d258d576_MD5.png]]
 
 回到桌面，新建一个txt文件。
 
-![](https://relay-1.bijitongbu.site/p/6768806251d90c589be88af91dcf09ce.png)
+![[笔记同步助手/images/d7df7f77087232d978dc69f0969c8018_MD5.png]]
 
 双击打开。
 
-![](https://relay-1.bijitongbu.site/p/61a0d1e2a94e4125bb5f8de13fa7c912.png)
+![[笔记同步助手/images/ed7723ca52e52da580739a7a64162240_MD5.png]]
 
 将代码粘贴进去，保存一下再关闭。
 
-![](https://relay-1.bijitongbu.site/p/42b37d0569138d152ee9432bfc5bdb6f.png)
+![[笔记同步助手/images/3c83f4e4c78b2434ae9fd05d15289dbc_MD5.png]]
 
 右键单击文件，点击“重命名”，将文件后缀修改为“.html”。
 
-![](https://relay-1.bijitongbu.site/p/72586a39c922de16c9a2a343a41a1eef.png)
+![[笔记同步助手/images/ea20aa036187bf6917d9ae66c36e3ecc_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/3570d7f83105c233159ed2dbe95fda50.png)
+![[笔记同步助手/images/c525bcf1de8adca48ae6487f6b07ce9c_MD5.png]]
 
 这个时候，你会发现，原先的文档图标已经变成了网页的样式。
 
-![](https://relay-1.bijitongbu.site/p/85068ded0315d5130baefebab6c929bc.png)
+![[笔记同步助手/images/9e3b8d689ef09a4f83764ecedf4fd096_MD5.png]]
 
 双击打开，然后就能看到可视化的群聊日报了。
 
-![](https://relay-1.bijitongbu.site/p/332b1fd22eca9da27601e899918bd4d2.png)
+![[笔记同步助手/images/f67bb927d8f13a74b83aa26945425add_MD5.png]]
 
 如果文件后缀修改了还是没用，在电脑的文件夹里完成一个操作。
 
-![](https://relay-1.bijitongbu.site/p/28599627c0fe7765193ce8143ceeb66d.png)
+![[笔记同步助手/images/8a95e91f4822db188164175d7ca78bbd_MD5.png]]
 
 以C盘为例，进入到“选项”界面，把“隐藏已知文件类型的扩展名”给它取消选中，然后点“应用”，就可以正常修改后缀了。
 
-![](https://relay-1.bijitongbu.site/p/ab10bd745862a12cbfcd0b56c102717e.png)
+![[笔记同步助手/images/54cf38902335bef1c3a28861a4fe2825_MD5.png]]
 
 接下来，我们有两个方案可以选择。
 
@@ -314,17 +314,17 @@ Windows系统版本要求在Win10及以上，不确定Win10以下系统是否可
 
 对HTML格式的日报文件直接进行转换。
 
-![](https://relay-1.bijitongbu.site/p/374ccf27a27eebb140cf44ffe9f10fa9.png)
+![[笔记同步助手/images/eee931dec0ce8cd85d1bad62ec48325e_MD5.png]]
 
 转换完成，直接下载就好了。
 
-![](https://relay-1.bijitongbu.site/p/75ea06e6140a21cabe0a6b4edb59eda8.png)
+![[笔记同步助手/images/82481b9160771a6030b3c95f563c707b_MD5.png]]
 
 还有一种，就是用飞书自带的滚动截图。
 
 随便找到一位飞书好友，进入到聊天窗口。
 
-![](https://relay-1.bijitongbu.site/p/26c657e030c40cdf1ef9ebe933b0b176.png)
+![[笔记同步助手/images/5723ba4eb3f7da78deb26d4716de85d7_MD5.png]]
 
 也能把日报完整地截图下来。
 
@@ -362,7 +362,7 @@ Claude Code（CC）是Anthropic推出的一款命令行AI编程工具，从2025�
 
 我也做了一个日报的Skills，这样，只要我提供聊天记录文件，然后对它说：“帮我制作一份群聊日报”，不用输入提示词，它就能自动制作日报了。
 
-![](https://relay-1.bijitongbu.site/p/a95e17a75c8170b95ff13199e5770ad5.png)
+![[笔记同步助手/images/cf7e22b09c3753f50d46f85e518db65b_MD5.png]]
 
 日报的Skills，连同EchoTrace软件和提示词一起放在网盘里，欢迎大家使用～
 

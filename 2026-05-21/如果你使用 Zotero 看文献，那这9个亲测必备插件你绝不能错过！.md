@@ -18,7 +18,7 @@ id: d8e497be-5783-4bbd-a019-2ee1c861f851
 
 以下 9 个插件按实用场景分组，排名不分先后，都是我自己长期在用、觉得确实能提升效率的。
 
-![](https://relay-1.bijitongbu.site/p/b42d7b4c8bfbcbe8222688281afd3603.png)
+![[笔记同步助手/images/7e0954f1600527eeb1dcbe39e28de411_MD5.png]]
 
 ---
 
@@ -82,7 +82,7 @@ Better Notes 是我目前写文献笔记的主要工具。它的思路很简单�
 
 现在大家可以在下面通过我的邀请链接前往注册，注册成功你也有积分获取，一次几MB的PDF翻译平均需要300积分，算下来够你免费翻译4、5份文献啦！！！
 
-![](https://relay-1.bijitongbu.site/p/5c817d0780e80bea1c2ad57f74a5e7aa.png)![](https://relay-1.bijitongbu.site/p/e0bdf47a3c323134385c7eb54967a85b.png)
+![[笔记同步助手/images/2972ae3ba66fdf3c2da0516ce9c96b4d_MD5.png]]![[笔记同步助手/images/66fb41e6387091e1a794669a2a4edec7_MD5.png]]
 
 邀请链接：
 
@@ -131,7 +131,7 @@ https://suppr.wilddata.cn/translate/upload?referralCode=GtNKPt
 
 导入文献时自动抓取影响因子、JCR 分区、中科院分区、引用次数等信息，直接显示在 Zotero 的条目列表里。不用专门去期刊官网查，也不用在浏览器里开一堆标签页对照。
 
-![](https://relay-1.bijitongbu.site/p/41a21af2b2f681fe1d1d748ff054b3a6.png)
+![[笔记同步助手/images/73d182ee06341ae3127f7de4dfe2a8eb_MD5.png]]
 
 做文献筛选时尤其有用：面对一堆相似主题的论文，IF 和分区信息能帮你快速判断哪些是领域内的顶刊文章，优先精读。Zotero Box 把这些信息直接嵌入到了文献管理流程里，属于那种加了之后不觉得有什么、去掉才发现很不方便的工具。
 
@@ -152,17 +152,17 @@ https://suppr.wilddata.cn/translate/upload?referralCode=GtNKPt
 
 他还内置了许多命令，也就是prompt提示词，你也可以自行定义提示词
 
-![](https://relay-1.bijitongbu.site/p/9a52f5a2cd97b0921d4f342ba5e5555d.png)
+![[笔记同步助手/images/fd4ea0fc736e3513696cdbdb97bade62_MD5.png]]
 
 最近好像还多了个可以生成Obsidian的canvas画布功能
 
-![](https://relay-1.bijitongbu.site/p/a4cc08a34a954bb48f1b1c297ccd8f57.png)
+![[笔记同步助手/images/aeceb7ee5e86e95323f48bcd7176a267_MD5.png]]
 
 然后AI模型的话，我推荐DeepSeek V4 Pro，以及Claude sonnet(如果有能力使用的话)
 
 下面的是我用DeepSeek总结其中一篇文献的鸟瞰图，虽然输出有点慢，但是很准很优美！！！ 还是有双链可跳转，方便以后做知识图谱
 
-![](https://relay-1.bijitongbu.site/p/04ee1a58286df81461d856a5a2156cc4.png)
+![[笔记同步助手/images/280b7fdade762e50cbee57a8afd0c7de_MD5.png]]
 
 ---
 
@@ -183,7 +183,7 @@ https://suppr.wilddata.cn/translate/upload?referralCode=GtNKPt
 
 然后他还对zotero原生PDF批注和笔记做了美化，搭配zotero box使用好看到爆炸！！
 
-![](https://relay-1.bijitongbu.site/p/d4c0054b0ac6b50b6375dc01c4747eb2.png)
+![[笔记同步助手/images/78f64bf32bb86b1f156d2b76cdae5924_MD5.png]]
 
 ---
 
@@ -270,7 +270,7 @@ PDF 双语对照翻译插件，翻译结果与原 PDF 排版对齐，适合需�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/ItpPOnp3YlhuXIVzkSLibE4M3cbtgPRTPXpb6NDibHlLVgkKOZsLIsg1n63iaekPkwiaWXvAiayMjESI9dcVhycNOgnspMZWX6XSnQQOuu3z0Cia4/0?wx_fmt=jpeg)
+![[笔记同步助手/images/e94ef2610d94f233dded0c19a114c46a_MD5.jpg|cover_image]]
 
 原创 口天三木 口天三木
 

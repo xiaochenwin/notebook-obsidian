@@ -34,7 +34,7 @@ Claudian是Obsidian的第三方插件，支持在Obsidian里面使用claude code
 
 1\. 进入下载地址，https://github.com/YishenTu/claudian/releases
 
-![](https://relay-1.bijitongbu.site/p/0cc9e2619b3877ce4fd07664bfd43165.png)
+![[笔记同步助手/images/af367e087e6f786d132485937af49636_MD5.png]]
 
 2\. 下载 main.js，manifest.json，styles.css三个文件。
 
@@ -42,11 +42,11 @@ Claudian是Obsidian的第三方插件，支持在Obsidian里面使用claude code
 
 如果是windows系统，打开指定文件夹，点击顶部的“查看”选项卡，在“显示/隐藏”区域勾选“隐藏的项目” 复选框，隐藏文件就会显示  
 
-![](https://relay-1.bijitongbu.site/p/f2e1acc7660872b761ea99f97e11562b.png)
+![[笔记同步助手/images/5c22b6a7f02edefd209ae43a4aa7975a_MD5.png]]
 
 如果是mac，进入指定仓库文件夹后，组合按键Cmd+Shift+.就可以看到，如下
 
-![](https://relay-1.bijitongbu.site/p/b32cb2d90b3f04f4aff44bf433f02a62.png)
+![[笔记同步助手/images/ed1f2147b3ba0248f9dbc0a46126fcd3_MD5.png]]
 
 3\. 进入.obsidian这个文件夹，并创建claudian文件夹
 
@@ -54,37 +54,37 @@ Claudian是Obsidian的第三方插件，支持在Obsidian里面使用claude code
 
 回到obsidian操作界面，在设置中找到第三方插件中的claudian，如果没有，就点击刷新按钮
 
-![](https://relay-1.bijitongbu.site/p/f154d8af1f65f42f7778f187152969ae.png)
+![[笔记同步助手/images/98c2d4386d5f2c149ad7e4ea033ae80b_MD5.png]]
 
 启用后，这里就已经完成安装，但是还不能使用claudian，缺一步配置。
 
 如果已经安装claude code，打开终端命令执行器，执行which claude，找到claude code的安装目录
 
-![](https://relay-1.bijitongbu.site/p/e0298b5004a46ab2ef060fc0fd5af83d.png)
+![[笔记同步助手/images/62898b871f53a7e0ebf4e7576f4a5a38_MD5.png]]
 
 然后点开claudian插件设置
 
-![](https://relay-1.bijitongbu.site/p/5a3ca6fcd8153d4d92284641f2c209e2.png)
+![[笔记同步助手/images/675b6648d3b63d36774b63a368e04061_MD5.png]]
 
 在Claude CLI path这一选项中填入刚刚找到的路径
 
-![](https://relay-1.bijitongbu.site/p/5552d54474a92a4a8f17fe50b6f4a57e.png)
+![[笔记同步助手/images/4f5c257b09e267ba3aee57a02b0cc085_MD5.png]]
 
 注意，如果claude已经对接了国内的大模型，在environment这一栏不需要填写baseurl和api key
 
-![](https://relay-1.bijitongbu.site/p/a820dbfd5db79a306909f1b47ca30313.png)
+![[笔记同步助手/images/4ee8e7e9d8d88c1d0d5368c8684a9ca0_MD5.png]]
 
 到这里，已经完成了claudian的安装，可以在有上角看到一个机器人的选择
 
-![](https://relay-1.bijitongbu.site/p/fd3b01fab36840f43e0b84f6be801c69.png)
+![[笔记同步助手/images/bb339ca0530657359cdb5340073df533_MD5.png]]
 
 安装好了之后，我们试一下效果，比如我想了解《金字塔原理》这本书的核心内容，让ai帮我写一份大纲文档，如图，AI已经开始工作。
 
-![](https://relay-1.bijitongbu.site/p/d475a80d100d5657d9f411196621c278.png)
+![[笔记同步助手/images/896628af0ff15098b9d8628d2f129dfc_MD5.png]]
 
 默默等待完成...，最终效果如下，已经完成一篇AI整理的文档
 
-![](https://relay-1.bijitongbu.site/p/d9d4758223ed06bedd6093630ccb10b8.png)
+![[笔记同步助手/images/8d2900f68d3df442f211826f0078db36_MD5.png]]
 
 AI已经完美集成到Obsidian知识库当中，写文档，整理文档，都是不错的工具。
 
@@ -102,7 +102,7 @@ AI已经完美集成到Obsidian知识库当中，写文档，整理文档，都�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/KK1PMteXW2ePbD5noQcQHOZPrLCAticuGARPv3n7eNfgAmjyeParAdsmfNiaduNvrS88asziblEqp128ibwQXf5gvTNWVHH7PcFkUaDA2dEad2c/0?wx_fmt=jpeg)
+![[笔记同步助手/images/e4bc568e9f33b3d8e5fdce099df2cee9_MD5.jpg|cover_image]]
 
 原创 小二 微糖小二
 

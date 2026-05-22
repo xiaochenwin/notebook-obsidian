@@ -16,7 +16,7 @@ id: 5221878a-f82b-4289-9905-45930880afe4
 
 一个人，一台电脑，一周时间，从零手搓了一个国产多模型AI编程桌面应用。中文界面，支持6大模型，编程模式、多模型对比、智能编排全都有。
 
-![](https://relay-1.bijitongbu.site/p/7f8c54eec89b3b4d93423c3ebdaf9107.png)
+![[笔记同步助手/images/1cbff3cd21bdcfe35d3f866dcabb1998_MD5.png]]
 
 自 Anthropic 发了 Claude Code，OpenAI 发布Codex，都是那种能在终端里帮你写代码的 AI Agent。
 
@@ -38,7 +38,7 @@ id: 5221878a-f82b-4289-9905-45930880afe4
 
 多模型调用、流式对话、编程模式、文件操作、Git 管理、终端执行，这些东西，我全都要。
 
-![](https://relay-1.bijitongbu.site/p/568ed763105b65a5622578570671ef55.png)
+![[笔记同步助手/images/ae53a95f0ad0302f8d2146424edd85cb_MD5.png]]
 
 你可能觉得，这不是扯吗，一个人怎么做这种东西？
 
@@ -68,9 +68,9 @@ Electron 做桌面应用，这个没争议，跨平台，JS 生态丰富。但�
 
 流式输出，最折磨人的部分
 
-![](https://relay-1.bijitongbu.site/p/bdc89d1c67935d34f14fdee6c984d391.png)
+![[笔记同步助手/images/0fdbec0aa188b0c2bde79c3b45223715_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/f2d83ae0d9baa86558bee304803310fe.png)
+![[笔记同步助手/images/847f5f0127756af50c59453884d9e02f_MD5.png]]
 
 接下来是流式输出。
 
@@ -96,7 +96,7 @@ Electron 做桌面应用，这个没争议，跨平台，JS 生态丰富。但�
 
 编程模式，最爽的部分
 
-![](https://relay-1.bijitongbu.site/p/9c0d27a7bc9e6f0531599c8a8eaee881.png)
+![[笔记同步助手/images/886d266b600496c90579b91b86554f5d_MD5.png]]
 
 做完基础对话之后，我开始搞编程模式。
 
@@ -124,9 +124,9 @@ Electron 做桌面应用，这个没争议，跨平台，JS 生态丰富。但�
 
 模板商店，最意外的收获
 
-![](https://relay-1.bijitongbu.site/p/41ade3cb53127c837e439593221ba506.png)
+![[笔记同步助手/images/df0af6feedc28d95708eee27144c4d10_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/01ad58cc56711c57cc365196b0b9a437.png)
+![[笔记同步助手/images/dc087f2487dd6fd42ac561ce62d11886_MD5.png]]
 
 做完编程模式之后，有一天我在想一个问题。
 
@@ -168,9 +168,9 @@ AI 能帮我写代码，能帮我改代码，但是我想把所有喜欢的html�
 
 ### 电子宠物，最没用但最让人开心的功能
 
-![](https://relay-1.bijitongbu.site/p/cf04711e1483bc563cd44cdf4b911c3c.png)
+![[笔记同步助手/images/072f552f3c5ba7e0dbbda7dd07bea5a8_MD5.png]]
 
-![](https://relay-1.bijitongbu.site/p/de3e3da264626e8f6817ee0d7e84f3ee.png)
+![[笔记同步助手/images/c14177130a6fb7d6feb93ae613742aec_MD5.png]]
 
 做完上面那些之后，我突然想加个电子宠物。
 
@@ -240,7 +240,7 @@ Claude Code和Codex代表的是「精英路线」，最好的团队、最多的�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/0EHaLibI5H0xBbJhEKnzvv7HqoXkFMDRiauUYw50DbpVFwkMZWX2VcYInibQYSHgN8xicudP3r07xiavNaP1xyqJMRE3hLg5bcynHhR1b5FVm4rU/0?wx_fmt=jpeg)
+![[笔记同步助手/images/797515384f4e3142a4f63220c5ca371d_MD5.jpg|cover_image]]
 
 Original 牛雪梨 牛雪梨AI
 

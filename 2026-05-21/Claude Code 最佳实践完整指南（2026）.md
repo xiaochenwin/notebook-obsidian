@@ -764,7 +764,7 @@ Claude Code 负责：执行（编辑文件、运行测试、处理 Git）
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/rkRg41BdqQoGrKKtvhFicYcfEp82Hd6wuLOgsXzH3La5dicykZFgttvN75csmQy4JeMx3NaLwFsNTrg3Fn42Fzu3sSN04bnbbvLibxfAafibsVQ/0?wx_fmt=jpeg)
+![[笔记同步助手/images/9d6264ce6bea77606fcf1609a5cd7f30_MD5.jpg|cover_image]]
 
 Original 坚强粑粑 坚强粑粑
 

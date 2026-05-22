@@ -30,7 +30,7 @@ The Rundown AI 是目前全球最大、增长最快的AI Newsletter之一，已�
 
   
 
-![](https://relay-1.bijitongbu.site/p/25521877f1ab2e710457113c7e2f09dd.png)
+![[笔记同步助手/images/408e548a6491b4a6b7df83c532b5e461_MD5.png]]
 
 Greg：Rowan，非常感谢你来参加我们的节目！你觉得本期听众会获得哪些收获？
 
@@ -46,7 +46,7 @@ Greg：Rowan，非常感谢你来参加我们的节目！你觉得本期听众�
 
 ### 零真人出镜、百万爆款、15万粉丝
 
-![](https://relay-1.bijitongbu.site/p/049bbe425788f4bea553b43102ee98c3.png)
+![[笔记同步助手/images/072f01f932283c4584f2b0ab10a27c78_MD5.png]]
 
 **Greg：**我们先谈第一个案例，你怎么做短视频内容的，当时在Instagram上很火。
 
@@ -124,7 +124,7 @@ Claude在这里非常擅长文字打磨。不过这也带来一个常见问题�
 
 当我遇到“对话过长，无法继续生成内容”，其实解决办法很简单——直接滑到前面的某一个对话，点击修改Prompt，从那一处的上下文继续开始编辑新的稿件，而不是重新打开一个全新的聊天窗口，这样Claude依然能维持足够的写作风格和上下文。
 
-![](https://relay-1.bijitongbu.site/p/31eb3bfd2c1d4eab92f48e4a21079c7f.png)
+![[笔记同步助手/images/d14496cfa26ff2bc3e6d8c1297e383a0_MD5.gif]]
 
 这个流程下，你根本不会直接全盘粘贴AI生成的稿件，而是边比对边吸收，只把那些真正有用、表达更精妙的部分采纳到成稿里。内容最终质量会大幅提升，因为Claude已经掌握了我们的写作风格与表达习惯，一些原本会被我忽略的小细节都能被补足。
 
@@ -222,7 +222,7 @@ Perplexity的“评论助手”直接嵌在视频侧栏，支持随时提问AI�
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Mw799iaYCBhxicKye06FInMzNS69YTs5zAfeIFbjD6kaqfULvSEQ8Uy7xDtBxywDAZSZ20vU0iaVPJunpXT1uSq9w/0?wx_fmt=jpeg)
+![[笔记同步助手/images/200a0c2dad7584e727e732c1d199cc34_MD5.jpg|cover_image]]
 
 不断壮大
 

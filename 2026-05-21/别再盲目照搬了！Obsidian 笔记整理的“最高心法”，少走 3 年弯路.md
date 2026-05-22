@@ -14,7 +14,7 @@ id: ab8874a2-9410-418e-ab15-9027d1833b1a
 
 发布时间：2026-04-28 12:03
 
-![](https://relay-1.bijitongbu.site/p/bc997653c37ed6a9d411bcbdc7a59068.png)
+![[笔记同步助手/images/cf612f78a2062c3498ff35ab93e9eb5a_MD5.png]]
 
 ​
 
@@ -48,7 +48,7 @@ id: ab8874a2-9410-418e-ab15-9027d1833b1a
 
 当你觉得必须要整理时，别瞎分，先看看这两个经过实战检验的框架，选个适合你的做“地基”。
 
-![](https://relay-1.bijitongbu.site/p/2a3e6984baa976e1602ec51746a90052.png)
+![[笔记同步助手/images/be94c4b0066865b1c75281420ff80db8_MD5.png]]
 
 ​
 
@@ -108,7 +108,7 @@ PARA 虽好，但它是给“干活”的人设计的。它有个致命缺点：
 
 ## 三、 看看我的“复杂结构” 👀 —— 但请勿模仿！
 
-![](https://relay-1.bijitongbu.site/p/b110435492b47493eaa40352d9f737a7.png)
+![[笔记同步助手/images/7643e6819731321bad290f0b3b46b2ca_MD5.png]]
 
 为了展示结构是如何随需求“野蛮生长”的，我把压箱底的结构晒出来。我有“自媒体+终身成长”的需求，所以磨出了这么一套复杂的体系：
 
@@ -186,7 +186,7 @@ PARA 虽好，但它是给“干活”的人设计的。它有个致命缺点：
 
 技术的本质是解决问题，笔记也一样。**把时间花在思考和记录上，而不是花在给文件“搬家”上。**
 
-![](https://relay-1.bijitongbu.site/p/425dfa62b55b4aaf0db1849a0b2dee8e.png)
+![[笔记同步助手/images/7c89cc10d8af6073b30fe23483b4114f_MD5.png]]
 
 ---
 
@@ -194,7 +194,7 @@ PARA 虽好，但它是给“干活”的人设计的。它有个致命缺点：
 
 ---
 
-![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/CU6ccZz3NvBrn06GSXtTc98VcstkbVQMQvL7a4doMgIDhxKfCTiaUbwwqDeYicVsglVfk5rAcwm1Z3H8sjDIFkCIVia8RZUY4kLLqAQ8V9qlibg/0?wx_fmt=jpeg)
+![[笔记同步助手/images/bdfdc49e55eeec7a0bd76d9f4f16d41a_MD5.jpg|cover_image]]
 
 Original 海潮 我们爱学习
 
