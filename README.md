@@ -26,11 +26,6 @@
 ├── 2026-05-20-note/      # 5月20日学习总结
 │   ├── 2026-05-20学习总结.md
 │   └── 2026-05-20学习总结PPT.html
-├── 2026-05-21/           # 2026年5月21日学习笔记
-│   └── *.md              # 各类学习笔记文章
-├── 2026-05-21-note/      # 5月21日学习总结
-│   ├── 2026-05-21学习总结.md
-│   └── 2026-05-21学习总结PPT.html
 └── images/                # 全局图片资源
 ```
 
@@ -44,8 +39,7 @@
 | **Codex AI** | 论文写作与PPT制作 |
 | **NotebookLM** | 知识梳理与图谱构建 |
 | **Claude** | 表达优化与框架搭建 |
-| **Cursor/Trae Solo** | AI代码编辑器 |
-| **Trae Solo** | Skill开发与三端同步 |
+| **Cursor** | AI代码编辑器 |
 
 ## 📖 主要内容
 
@@ -53,7 +47,6 @@
 - 原生复制粘贴 (Ctrl+C/V)
 - Better Bibtex + Zotero Integration 插件联动
 - Obsidian Vault MCP 工具深度集成
-- Zotero 9个必备插件推荐
 
 ### AI 辅助科研工具
 - **Nature-Skills**: 上交博士开源的论文写作AI指令集
@@ -66,12 +59,6 @@
 - **Codex AI**: /goal命令驱动，高效制作论文答辩PPT
 
 - **Academic Research Skills**: GitHub万星项目，论文生产工作台
-
-### Obsidian + AI 知识库
-- CodeBuddy + Obsidian 智能知识库
-- Claude Code + Codex 双模型配置
-- Trae Solo + Obsidian + 坚果云三端同步
-- 自定义Skill开发
 
 ### 学术工作流架构
 ```
@@ -109,7 +96,6 @@ cd notebook-obsidian
 | 2026-05-18 | [学习总结](./2026-05-18-note/2026-05-18学习总结.md) | [PPT网页](./2026-05-18-note/2026-05-18学习总结PPT.html) |
 | 2026-05-19 | [学习总结](./2026-05-19-note/2026-05-19学习总结.md) | [PPT网页](./2026-05-19-note/2026-05-19学习总结PPT.html) |
 | 2026-05-20 | [学习总结](./2026-05-20-note/2026-05-20学习总结.md) | [PPT网页](./2026-05-20-note/2026-05-20学习总结PPT.html) |
-| 2026-05-21 | [学习总结](./2026-05-21-note/2026-05-21学习总结.md) | [PPT网页](./2026-05-21-note/2026-05-21学习总结PPT.html) |
 
 ### PPT 操作方式
 - 左右箭头键或空格翻页
@@ -117,7 +103,7 @@ cd notebook-obsidian
 - 触屏设备支持左右滑动
 - 鼠标滚轮支持翻页
 
-## 📊 学习进度统计
+## � 学习进度统计
 
 | 日期 | 笔记数量 | 核心主题 | 综合评分 |
 |------|----------|----------|----------|
@@ -125,7 +111,6 @@ cd notebook-obsidian
 | 2026-05-18 | 21篇 | Codex进阶/Obsidian配置/Claude Code | 85/100 |
 | 2026-05-19 | 51篇 | Obsidian深度配置/Codex应用/Zotero升级 | 85/100 |
 | 2026-05-20 | 20篇 | Claude Code/学术写作/AIContent创作 | 88/100 |
-| 2026-05-21 | 30篇 | Obsidian智能知识库/双模型配置/Skill开发 | 90/100 |
 
 ## 🚀 学习路径
 
@@ -133,30 +118,26 @@ cd notebook-obsidian
 第一阶段：文献管理基础
   └─ Zotero配置与文献导入
   └─ Zotero+Obsidian联动
-  └─ Zotero 9个必备插件
 
 第二阶段：AI工具集成
   └─ Codex AI安装与配置
   └─ Claude Code实战应用
-  └─ Trae Solo三端同步配置
 
 第三阶段：知识系统构建
   └─ Obsidian插件生态配置
-  └─ Claude Code + Codex 双模型
   └─ AI驱动的知识结构化
 
 第四阶段：学术产出
   └─ 论文写作自动化
   └─ PPT制作与汇报
-  └─ 自定义Skill开发
 ```
 
-## 🔑 明日学习建议 (2026-05-22)
+## 🔑 明日学习建议 (2026-05-21)
 
-1. **最高优先级**: 实战出真知，选择一个工具深入实战
-2. **重要**: 安装配置Zotero 9个必备插件
-3. **完善**: 优化Obsidian双模型配置
-4. **自动化**: 实现微信群聊AI日报
+1. **最高优先级**: Claude Code实战，尝试完成一篇论文初稿
+2. **重要**: 使用Nature-polishing优化论文表达
+3. **体验**: QoderWake数字员工配置
+4. **插件**: Obsidian Yolo插件配置
 
 ## 📄 License
 
